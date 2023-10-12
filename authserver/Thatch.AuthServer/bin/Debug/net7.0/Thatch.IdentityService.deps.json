@@ -3343,6 +3343,56 @@
           "lib/net7.0/Volo.Abp.Swashbuckle.dll": {}
         }
       },
+      "Volo.Abp.TenantManagement.Domain/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AutoMapper": "7.3.3",
+          "Volo.Abp.Caching": "7.3.3",
+          "Volo.Abp.Data": "7.3.3",
+          "Volo.Abp.Ddd.Domain": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
+          "Volo.Abp.TenantManagement.Domain.Shared": "7.3.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Volo.Abp.TenantManagement.Domain.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/Volo.Abp.TenantManagement.Domain.dll": {}
+        }
+      },
+      "Volo.Abp.TenantManagement.Domain.Shared/7.3.3": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "7.0.0",
+          "Volo.Abp.Auditing.Contracts": "7.3.3",
+          "Volo.Abp.Validation": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.TenantManagement.Domain.Shared.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.TenantManagement.Domain.Shared.dll": {}
+        }
+      },
+      "Volo.Abp.TenantManagement.EntityFrameworkCore/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.TenantManagement.Domain": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.TenantManagement.EntityFrameworkCore.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.TenantManagement.EntityFrameworkCore.dll": {}
+        }
+      },
       "Volo.Abp.TextTemplating/7.3.3": {
         "dependencies": {
           "Volo.Abp.TextTemplating.Scriban": "7.3.3"
@@ -3567,12 +3617,43 @@
           "lib/net7.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
       },
+      "Thatch.Shared.Hosting/1.0.0": {
+        "dependencies": {
+          "IdentityModel": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0",
+          "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "6.0.0",
+          "Serilog.AspNetCore": "6.1.0",
+          "Serilog.Settings.Configuration": "3.4.0",
+          "Serilog.Sinks.Async": "1.5.0",
+          "Serilog.Sinks.Seq": "5.2.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
+          "Volo.Abp.AspNetCore.Serilog": "7.3.3",
+          "Volo.Abp.Authorization": "7.3.3",
+          "Volo.Abp.Autofac": "7.3.3",
+          "Volo.Abp.Caching.StackExchangeRedis": "7.3.3",
+          "Volo.Abp.Ddd.Application": "7.3.3",
+          "Volo.Abp.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.EntityFrameworkCore.PostgreSql": "7.3.3",
+          "Volo.Abp.EventBus.RabbitMQ": "7.3.3",
+          "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
+          "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
+          "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
+          "Volo.Abp.Swashbuckle": "7.3.3"
+        },
+        "runtime": {
+          "Thatch.Shared.Hosting.dll": {}
+        },
+        "compile": {
+          "Thatch.Shared.Hosting.dll": {}
+        }
+      },
       "Thatch.Shared.Microservices/1.0.0": {
         "dependencies": {
-          "Thatch.Shared.Hosting": "1.0.0",
           "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3"
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3"
         },
         "runtime": {
           "Thatch.Shared.Microservices.dll": {}
@@ -5356,30 +5437,6 @@
           "WindowsBase.dll": {}
         },
         "compileOnly": true
-      },
-      "Thatch.Shared.Hosting/1.0.0": {
-        "dependencies": {
-          "IdentityModel": "6.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0",
-          "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "6.0.0",
-          "Serilog.AspNetCore": "6.1.0",
-          "Serilog.Settings.Configuration": "3.4.0",
-          "Serilog.Sinks.Async": "1.5.0",
-          "Serilog.Sinks.Seq": "5.2.2",
-          "Volo.Abp.AspNetCore.Serilog": "7.3.3",
-          "Volo.Abp.Authorization": "7.3.3",
-          "Volo.Abp.Autofac": "7.3.3",
-          "Volo.Abp.Caching.StackExchangeRedis": "7.3.3",
-          "Volo.Abp.Ddd.Application": "7.3.3",
-          "Volo.Abp.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.EntityFrameworkCore.PostgreSql": "7.3.3",
-          "Volo.Abp.EventBus.RabbitMQ": "7.3.3",
-          "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
-          "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
-          "Volo.Abp.Localization": "7.3.3",
-          "Volo.Abp.Swashbuckle": "7.3.3"
-        },
-        "compileOnly": true
       }
     }
   },
@@ -7083,6 +7140,27 @@
       "path": "volo.abp.swashbuckle/7.3.3",
       "hashPath": "volo.abp.swashbuckle.7.3.3.nupkg.sha512"
     },
+    "Volo.Abp.TenantManagement.Domain/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XdvIzMPxT/RO1OP5aal2eqOkOdhd4qnFJqndnHMCswYOwDjAuba0NvitjdTJwbLAH6cnrNGZDi7I/ut63kKk/w==",
+      "path": "volo.abp.tenantmanagement.domain/7.3.3",
+      "hashPath": "volo.abp.tenantmanagement.domain.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.TenantManagement.Domain.Shared/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-G0RyOuXukhqPk6Qa2fu20Co1hkOXA7BICXer3C4hodsRuTXoTtMhdU8BUZtrh5GafXva+/AJMx9FFdsbBhQSAA==",
+      "path": "volo.abp.tenantmanagement.domain.shared/7.3.3",
+      "hashPath": "volo.abp.tenantmanagement.domain.shared.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.TenantManagement.EntityFrameworkCore/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PyK+rS4EW+mczOnFpiqXodS95ih2fVVjRMhwtOH4pscwBDS/Nkej/xsSNhIvTA6LXh00i/cZIQBdBXNN0WDPhA==",
+      "path": "volo.abp.tenantmanagement.entityframeworkcore/7.3.3",
+      "hashPath": "volo.abp.tenantmanagement.entityframeworkcore.7.3.3.nupkg.sha512"
+    },
     "Volo.Abp.TextTemplating/7.3.3": {
       "type": "package",
       "serviceable": true,
@@ -7187,6 +7265,11 @@
       "sha512": "sha512-wef5LF4h1QaeMk8b0IXAIW+cbezRyd5p7o+JwzBmJaUUtW/tCEvcDjpbqevb6QT3t8/A5QgGSGtGF8tinyhK9g==",
       "path": "volo.abp.virtualfilesystem/7.3.3",
       "hashPath": "volo.abp.virtualfilesystem.7.3.3.nupkg.sha512"
+    },
+    "Thatch.Shared.Hosting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Thatch.Shared.Microservices/1.0.0": {
       "type": "project",
@@ -8670,11 +8753,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Thatch.Shared.Hosting/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

@@ -3977,7 +3977,6 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
-          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
           "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
@@ -3985,17 +3984,14 @@
           "Volo.Abp.AutoMapper": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
           "Volo.Abp.FeatureManagement.Application": "7.3.3",
-          "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.FeatureManagement.HttpApi": "7.3.3",
           "Volo.Abp.PermissionManagement.Application": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain.Identity": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain.IdentityServer": "7.3.3",
-          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.HttpApi": "7.3.3",
           "Volo.Abp.PermissionManagement.HttpApi.Client": "7.3.3",
           "Volo.Abp.SettingManagement.Application": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.SettingManagement.HttpApi": "7.3.3",
           "Volo.Abp.SettingManagement.HttpApi.Client": "7.3.3"
         },
@@ -4010,7 +4006,6 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
-          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.Account.Application": "7.3.3",
           "Volo.Abp.Account.HttpApi": "7.3.3",
@@ -4069,7 +4064,8 @@
           "Thatch.Shared.Hosting": "1.0.0",
           "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3"
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3"
         },
         "runtime": {
           "Thatch.Shared.Microservices.dll": {}
@@ -4083,7 +4079,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "Microsoft.Extensions.FileProviders.Embedded": "7.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.0",
-          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
           "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
@@ -4098,7 +4093,6 @@
           "Volo.Abp.TenantManagement.Application.Contracts": "7.3.3",
           "Volo.Abp.TenantManagement.Domain": "7.3.3",
           "Volo.Abp.TenantManagement.Domain.Shared": "7.3.3",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.TenantManagement.HttpApi": "7.3.3",
           "Volo.Abp.Validation": "7.3.3"
         },

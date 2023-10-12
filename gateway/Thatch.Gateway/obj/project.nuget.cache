@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "iV3HlFDy5ln1XmxfDgpHXOMNrsjtmoNZJ6d2rjpkMBH7auy2FyBifBAuFDDFeMGVActsevwVtkouDEKFNxQjgA==",
+  "success": true,
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.0\\microsoft.visualstudio.azure.containers.tools.targets.1.18.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\yarp.reverseproxy\\2.0.0\\yarp.reverseproxy.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

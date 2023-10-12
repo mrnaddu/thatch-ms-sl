@@ -4,35 +4,27 @@
 # when you've given us a try, we'd love to know what you think:
 #    https://aka.ms/AA7q20u
 #
-name: tasky
+name: Thatch
 services:
-- name: tasky-administration-httpapi-host
-  project: services/administration/host/Tasky.Administration.HttpApi.Host/Tasky.Administration.HttpApi.Host.csproj
+- name: Thatch-auth-server
+  project: authserver/Thatch.AuthServer/Thatch.AuthServer.csproj
   bindings:
     - protocol: https
-      port: 7001
-- name: tasky-identityservice-httpapi-host
-  project: services/identity/host/Tasky.IdentityService.HttpApi.Host/Tasky.IdentityService.HttpApi.Host.csproj
+      port: 5000 
+- name: Thatch-AdministrationService
+  project: services/Thatch.AdministrationService/Thatch.AdministrationService.csproj
   bindings:
     - protocol: https
-      port: 7002
-- name: tasky-saas-httpapi-host
-  project: services/saas/host/Tasky.SaaS.HttpApi.Host/Tasky.SaaS.HttpApi.Host.csproj
+      port: 5001
+- name: Thatch-IdentityService
+  project: services/Thatch.IdentityService/Thatch.IdentityService.csproj
   bindings:
     - protocol: https
-      port: 7003
-- name: tasky-auth-server
-  project: apps/Tasky.AuthServer/Tasky.AuthServer.csproj
+      port: 5002
+- name: Thatch-TenantService
+  project: services/Thatch.TenantService/Thatch.TenantService.csproj
   bindings:
     - protocol: https
-      port: 7600
-- name: tasky-gateway
-  project: gateway/Tasky.Gateway/Tasky.Gateway.csproj
-  bindings:
-    - protocol: https
-      port: 7500
-- name: tasky-blazor
-  project: apps/Tasky.Blazor/Tasky.Blazor.csproj
-  bindings:
-    - protocol: https
-      port: 5000
+      port: 5002
+
+

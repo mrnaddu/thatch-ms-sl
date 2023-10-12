@@ -1,0 +1,1447 @@
+2023-10-12 02:43:56.658 -07:00 [INF] Loaded ABP modules:
+2023-10-12 02:43:56.667 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 02:43:56.668 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 02:43:56.668 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 02:43:56.668 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 02:43:56.668 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 02:43:56.668 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 02:43:56.668 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 02:43:56.668 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 02:43:56.668 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 02:43:56.668 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 02:43:56.668 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 02:43:56.668 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 02:43:56.668 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 02:43:56.668 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 02:43:57.782 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 02:43:57.851 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 02:43:57.852 -07:00 [INF] AdministrationService.
+2023-10-12 02:43:58.094 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 02:43:58.094 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 02:43:58.095 -07:00 [INF] Hosting environment: Development
+2023-10-12 02:43:58.095 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 02:43:59.641 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 02:44:00.992 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:44:01.223 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 1581.6312ms
+2023-10-12 02:44:01.225 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 02:44:01.225 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 02:44:01.232 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 6.7545ms
+2023-10-12 02:44:01.282 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.8501ms
+2023-10-12 02:44:01.306 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 02:44:01.320 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:44:01.324 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 17.6262ms
+2023-10-12 02:47:10.370 -07:00 [INF] Loaded ABP modules:
+2023-10-12 02:47:10.379 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 02:47:10.379 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 02:47:10.379 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 02:47:10.379 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 02:47:10.379 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 02:47:10.379 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 02:47:10.379 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 02:47:10.379 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 02:47:10.379 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 02:47:10.379 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 02:47:10.379 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 02:47:10.379 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 02:47:10.379 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 02:47:10.379 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 02:47:11.202 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 02:47:11.317 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 02:47:11.317 -07:00 [INF] AdministrationService.
+2023-10-12 02:47:11.457 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 02:47:11.457 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 02:47:11.457 -07:00 [INF] Hosting environment: Development
+2023-10-12 02:47:11.457 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 02:47:12.526 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 02:47:12.903 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:47:13.005 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 478.4916ms
+2023-10-12 02:47:13.011 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 02:47:13.011 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 02:47:13.020 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 8.3721ms
+2023-10-12 02:47:13.030 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3298ms
+2023-10-12 02:47:13.076 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 02:47:13.091 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:47:13.096 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 20.2379ms
+2023-10-12 02:50:15.183 -07:00 [INF] Loaded ABP modules:
+2023-10-12 02:50:15.190 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 02:50:15.191 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 02:50:15.191 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 02:50:15.191 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 02:50:15.191 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 02:50:15.191 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 02:50:15.191 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 02:50:15.191 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 02:50:15.191 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 02:50:15.191 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 02:50:15.191 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 02:50:15.191 -07:00 [INF]     - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 02:50:15.191 -07:00 [INF]       - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 02:50:15.191 -07:00 [INF]         - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 02:50:16.000 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 02:50:16.127 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 02:50:16.127 -07:00 [INF] AdministrationService.
+2023-10-12 02:50:16.248 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 02:50:16.249 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 02:50:16.249 -07:00 [INF] Hosting environment: Development
+2023-10-12 02:50:16.249 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 02:50:17.269 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 02:50:17.623 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:50:17.723 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 454.7510ms
+2023-10-12 02:50:17.728 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 02:50:17.728 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 02:50:17.742 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 13.9619ms
+2023-10-12 02:50:17.752 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 23.9827ms
+2023-10-12 02:50:17.789 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 02:50:17.795 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:50:17.801 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 11.6158ms
+2023-10-12 02:51:32.412 -07:00 [INF] Loaded ABP modules:
+2023-10-12 02:51:32.422 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 02:51:32.422 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 02:51:32.422 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 02:51:32.422 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 02:51:32.422 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 02:51:32.422 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 02:51:32.422 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 02:51:32.422 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 02:51:32.422 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 02:51:32.422 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 02:51:32.422 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 02:51:32.422 -07:00 [INF]     - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 02:51:32.422 -07:00 [INF]       - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 02:51:32.422 -07:00 [INF]         - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 02:51:49.231 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 02:51:51.005 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 02:51:53.440 -07:00 [INF] AdministrationService.
+2023-10-12 02:51:54.159 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 02:51:54.159 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 02:51:54.159 -07:00 [INF] Hosting environment: Development
+2023-10-12 02:51:54.159 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 02:51:54.928 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 02:51:55.302 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:51:55.417 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 489.0370ms
+2023-10-12 02:51:55.420 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 02:51:55.420 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 02:51:55.431 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 10.8165ms
+2023-10-12 02:51:55.440 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 20.2636ms
+2023-10-12 02:51:55.484 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 02:51:55.494 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 02:51:55.497 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 13.2593ms
+2023-10-12 03:02:27.724 -07:00 [INF] Loaded ABP modules:
+2023-10-12 03:02:27.733 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 03:02:27.733 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 03:02:27.733 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 03:02:27.733 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 03:02:27.733 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 03:02:27.733 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 03:02:27.733 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 03:02:27.733 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 03:02:27.733 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 03:02:27.733 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 03:02:27.733 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 03:02:27.733 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 03:02:27.733 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 03:02:27.733 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 03:02:27.733 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 03:02:27.733 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 03:02:27.733 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 03:02:27.734 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 03:02:27.734 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 03:02:27.734 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 03:02:27.734 -07:00 [INF]     - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 03:02:27.734 -07:00 [INF]       - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 03:02:27.734 -07:00 [INF]         - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 03:02:28.585 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 03:02:28.707 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 03:02:28.708 -07:00 [INF] AdministrationService.
+2023-10-12 03:02:28.839 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 03:02:28.840 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 03:02:28.840 -07:00 [INF] Hosting environment: Development
+2023-10-12 03:02:28.840 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 03:02:30.239 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 03:02:30.584 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:02:30.711 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 03:02:30.711 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 470.2437ms
+2023-10-12 03:02:30.711 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 03:02:30.728 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 16.1055ms
+2023-10-12 03:02:30.738 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.1440ms
+2023-10-12 03:02:30.795 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 03:02:30.806 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:02:30.810 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 14.3711ms
+2023-10-12 03:12:57.326 -07:00 [INF] Loaded ABP modules:
+2023-10-12 03:12:57.335 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 03:12:57.335 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 03:12:57.335 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 03:12:57.335 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 03:12:57.335 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 03:12:57.335 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 03:12:57.335 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 03:12:57.335 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 03:12:57.335 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 03:12:57.335 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 03:12:57.335 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 03:12:57.335 -07:00 [INF]     - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 03:12:57.335 -07:00 [INF]       - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 03:12:57.335 -07:00 [INF]         - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 03:12:58.216 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 03:12:58.350 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 03:12:58.351 -07:00 [INF] AdministrationService.
+2023-10-12 03:12:58.485 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 03:12:58.485 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 03:12:58.485 -07:00 [INF] Hosting environment: Development
+2023-10-12 03:12:58.485 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 03:12:59.598 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 03:12:59.948 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:13:00.085 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 485.3189ms
+2023-10-12 03:13:00.113 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 03:13:00.113 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 03:13:00.125 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 12.0545ms
+2023-10-12 03:13:00.142 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 29.0696ms
+2023-10-12 03:13:00.163 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 03:13:00.171 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RequestLocalization.AbpRequestLocalizationMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:13:00.176 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 13.3984ms
+2023-10-12 03:14:43.899 -07:00 [INF] Loaded ABP modules:
+2023-10-12 03:14:43.908 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 03:14:43.908 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 03:14:43.908 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 03:14:43.908 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 03:14:43.908 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 03:14:43.908 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 03:14:43.908 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 03:14:43.908 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 03:14:43.908 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 03:14:43.908 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 03:14:43.908 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 03:14:43.908 -07:00 [INF]     - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 03:14:43.908 -07:00 [INF]       - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 03:14:43.908 -07:00 [INF]         - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 03:14:44.744 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 03:14:44.861 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 03:14:44.862 -07:00 [INF] AdministrationService.
+2023-10-12 03:14:44.996 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 03:14:44.996 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 03:14:44.996 -07:00 [INF] Hosting environment: Development
+2023-10-12 03:14:44.996 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 03:14:45.624 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 03:14:45.730 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:14:45.839 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 215.2760ms
+2023-10-12 03:14:45.842 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 03:14:45.842 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 03:14:45.852 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 9.7138ms
+2023-10-12 03:14:45.860 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.2036ms
+2023-10-12 03:14:45.908 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 03:14:45.916 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:14:45.919 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 11.5335ms
+2023-10-12 03:23:49.993 -07:00 [INF] Loaded ABP modules:
+2023-10-12 03:23:50.003 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 03:23:50.004 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 03:23:50.004 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 03:23:50.004 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 03:23:50.004 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 03:23:50.004 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 03:23:50.004 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 03:23:50.004 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 03:23:50.004 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 03:23:50.004 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 03:23:50.004 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 03:23:50.004 -07:00 [INF]   - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 03:23:50.004 -07:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 03:23:50.004 -07:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 03:23:50.782 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 03:23:50.909 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 03:23:50.910 -07:00 [INF] AdministrationService.
+2023-10-12 03:23:51.030 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 03:23:51.030 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 03:23:51.031 -07:00 [INF] Hosting environment: Development
+2023-10-12 03:23:51.031 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 03:23:51.593 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 03:23:51.687 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:23:51.804 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 211.0040ms
+2023-10-12 03:23:51.806 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 03:23:51.806 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 03:23:51.817 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 11.4257ms
+2023-10-12 03:23:51.825 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.3492ms
+2023-10-12 03:23:51.872 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2023-10-12 03:23:51.877 -07:00 [ERR] An unhandled exception has occurred while executing the request.
+Autofac.Core.Registration.ComponentNotRegisteredException: The requested service 'Volo.Abp.AspNetCore.MultiTenancy.MultiTenancyMiddleware' has not been registered. To avoid this exception, either register a component to provide the service, check for service registration using IsRegistered(), or use the ResolveOptional() method to resolve an optional dependency.
+
+See https://autofac.rtfd.io/help/service-not-registered for more info.
+   at Autofac.ResolutionExtensions.ResolveService(IComponentContext context, Service service, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType, IEnumerable`1 parameters)
+   at Autofac.ResolutionExtensions.Resolve(IComponentContext context, Type serviceType)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProvider.GetRequiredService(Type serviceType)
+   at Microsoft.AspNetCore.Http.MiddlewareFactory.Create(Type middlewareType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Volo.Abp.AspNetCore.Tracing.AbpCorrelationIdMiddleware.InvokeAsync(HttpContext context, RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass6_1.<<UseMiddlewareInterface>b__1>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-10-12 03:23:51.884 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 500 - text/plain;+charset=utf-8 11.8253ms
+2023-10-12 03:25:22.422 -07:00 [INF] Loaded ABP modules:
+2023-10-12 03:25:22.432 -07:00 [INF] - Thatch.AdministrationService.AdministrationServiceModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Thatch.AdministrationService.Services.AdministrationServiceServicesModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Thatch.AdministrationService.Domain.AdministrationServiceDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Domain.AbpDddDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Auditing.AbpAuditingModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Data.AbpDataModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2023-10-12 03:25:22.432 -07:00 [INF]               - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]               - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.Uow.AbpUnitOfWorkModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.EventBus.Abstractions.AbpEventBusAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Json.AbpJsonModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.Json.SystemTextJson.AbpJsonSystemTextJsonModule
+2023-10-12 03:25:22.432 -07:00 [INF]               - Volo.Abp.Json.AbpJsonAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]               - Volo.Abp.Timing.AbpTimingModule
+2023-10-12 03:25:22.432 -07:00 [INF]                 - Volo.Abp.Localization.AbpLocalizationModule
+2023-10-12 03:25:22.432 -07:00 [INF]                   - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2023-10-12 03:25:22.432 -07:00 [INF]                   - Volo.Abp.Settings.AbpSettingsModule
+2023-10-12 03:25:22.432 -07:00 [INF]                     - Volo.Abp.Security.AbpSecurityModule
+2023-10-12 03:25:22.432 -07:00 [INF]                   - Volo.Abp.Threading.AbpThreadingModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.MultiTenancy.AbpMultiTenancyAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Auditing.AbpAuditingContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.EventBus.AbpEventBusModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Guids.AbpGuidsModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.BackgroundWorkers.AbpBackgroundWorkersModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.DistributedLocking.AbpDistributedLockingAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Specifications.AbpSpecificationsModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Caching.AbpCachingModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Serialization.AbpSerializationModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Domain.AbpDddDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Thatch.AdministrationService.Shared.AdministrationServiceSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Validation.AbpValidationModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Features.AbpFeaturesModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.Authorization.AbpAuthorizationAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Authorization.AbpAuthorizationModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Users.AbpUsersDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Thatch.AdministrationService.Interfaces.AdministrationServiceInterfacesModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Application.AbpDddApplicationContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.SettingManagement.AbpSettingManagementApplicationContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Application.AbpDddApplicationModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Http.AbpHttpAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementApplicationModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Emailing.AbpEmailingModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.BackgroundJobs.AbpBackgroundJobsAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.TextTemplating.AbpTextTemplatingModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.TextTemplating.Scriban.AbpTextTemplatingScribanModule
+2023-10-12 03:25:22.432 -07:00 [INF]             - Volo.Abp.TextTemplating.AbpTextTemplatingCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementApplicationModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Thatch.AdministrationService.Controllers.AdministrationServiceControllerModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.Http.AbpHttpModule
+2023-10-12 03:25:22.432 -07:00 [INF]           - Volo.Abp.Minify.AbpMinifyModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.UI.AbpUiModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.SettingManagement.AbpSettingManagementHttpApiModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.FeatureManagement.AbpFeatureManagementHttpApiModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Thatch.AdministrationService.Data.AdministrationServiceDataModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.EntityFrameworkCore.PostgreSql.AbpEntityFrameworkCorePostgreSqlModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.FeatureManagement.EntityFrameworkCore.AbpFeatureManagementEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Users.AbpUsersAbstractionModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Http.Client.AbpHttpClientModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.Castle.AbpCastleCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.RemoteServices.AbpRemoteServicesModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Volo.Abp.Http.Client.IdentityModel.Web.AbpHttpClientIdentityModelWebModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Thatch.Shared.Microservices.ThatchSharedMicroservicesModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.TenantManagement.EntityFrameworkCore.AbpTenantManagementEntityFrameworkCoreModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.TenantManagement.AbpTenantManagementDomainModule
+2023-10-12 03:25:22.432 -07:00 [INF]         - Volo.Abp.TenantManagement.AbpTenantManagementDomainSharedModule
+2023-10-12 03:25:22.432 -07:00 [INF]   - Thatch.Shared.Hosting.ThatchHostingModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Autofac.AbpAutofacModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Caching.StackExchangeRedis.AbpCachingStackExchangeRedisModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.Swashbuckle.AbpSwashbuckleModule
+2023-10-12 03:25:22.432 -07:00 [INF]     - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2023-10-12 03:25:22.432 -07:00 [INF]       - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2023-10-12 03:25:23.299 -07:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-12 03:25:23.428 -07:00 [INF] Initialized all ABP modules.
+2023-10-12 03:25:23.428 -07:00 [INF] AdministrationService.
+2023-10-12 03:25:23.557 -07:00 [INF] Now listening on: https://localhost:5001
+2023-10-12 03:25:23.557 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-12 03:25:23.557 -07:00 [INF] Hosting environment: Development
+2023-10-12 03:25:23.557 -07:00 [INF] Content root path: C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService
+2023-10-12 03:25:24.363 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2023-10-12 03:25:24.910 -07:00 [INF] Executing endpoint 'Thatch.AdministrationService.Controllers.Home.HomeController.Index (Thatch.AdministrationService)'
+2023-10-12 03:25:24.937 -07:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller Thatch.AdministrationService.Controllers.Home.HomeController (Thatch.AdministrationService).
+2023-10-12 03:25:24.967 -07:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2023-10-12 03:25:24.971 -07:00 [INF] Executed action Thatch.AdministrationService.Controllers.Home.HomeController.Index (Thatch.AdministrationService) in 30.8851ms
+2023-10-12 03:25:24.971 -07:00 [INF] Executed endpoint 'Thatch.AdministrationService.Controllers.Home.HomeController.Index (Thatch.AdministrationService)'
+2023-10-12 03:25:24.984 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 302 0 - 622.0879ms
+2023-10-12 03:25:24.991 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2023-10-12 03:25:24.996 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 5.3374ms
+2023-10-12 03:25:24.998 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-10-12 03:25:25.104 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/ui/abp.js - -
+2023-10-12 03:25:25.104 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2023-10-12 03:25:25.105 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2023-10-12 03:25:25.105 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/ui/abp.swagger.js - -
+2023-10-12 03:25:25.111 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2023-10-12 03:25:25.114 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 115.3196ms
+2023-10-12 03:25:25.116 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-10-12 03:25:25.125 -07:00 [INF] Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'N/A'
+2023-10-12 03:25:25.125 -07:00 [INF] Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'N/A'
+2023-10-12 03:25:25.125 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/ui/abp.swagger.js - - - 200 1363 application/javascript 20.1714ms
+2023-10-12 03:25:25.125 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/ui/abp.js - - - 200 3122 application/javascript 21.0440ms
+2023-10-12 03:25:25.130 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 12388 application/javascript;+charset=utf-8 13.9553ms
+2023-10-12 03:25:25.150 -07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-10-12 03:25:25.150 -07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-10-12 03:25:25.150 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 143943 text/css 46.1215ms
+2023-10-12 03:25:25.150 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 39.2022ms
+2023-10-12 03:25:25.167 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-10-12 03:25:25.190 -07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-10-12 03:25:25.191 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1095087 text/javascript 85.9640ms
+2023-10-12 03:25:25.200 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.9431ms
+2023-10-12 03:25:25.346 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-10-12 03:25:25.373 -07:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2023-10-12 03:25:25.375 -07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-10-12 03:25:25.375 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 2.8981ms
+2023-10-12 03:25:25.532 -07:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 186.4175ms

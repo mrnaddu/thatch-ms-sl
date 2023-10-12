@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fhkuSvDspnZwPgr8raUXGUWkM7Hq2hKyFVuwD20daYMaM8M2QVxkXmnc+fl9SrR6fSD5COLIPVBoFC2sNjRrhQ==",
+  "dgSpecHash": "WHjQTxnByfTp7holHquNL1J0UbXS2vf5X/kvZKF8HrjNkHlk2wX7c2JpIXZnigQdqDiUCzYtXq+0rsBDdeAymw==",
   "success": true,
   "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj",
   "expectedPackageFiles": [
@@ -242,6 +242,9 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.settings\\7.3.3\\volo.abp.settings.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.specifications\\7.3.3\\volo.abp.specifications.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.swashbuckle\\7.3.3\\volo.abp.swashbuckle.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.tenantmanagement.domain\\7.3.3\\volo.abp.tenantmanagement.domain.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.tenantmanagement.domain.shared\\7.3.3\\volo.abp.tenantmanagement.domain.shared.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.tenantmanagement.entityframeworkcore\\7.3.3\\volo.abp.tenantmanagement.entityframeworkcore.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.texttemplating\\7.3.3\\volo.abp.texttemplating.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.texttemplating.core\\7.3.3\\volo.abp.texttemplating.core.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.texttemplating.scriban\\7.3.3\\volo.abp.texttemplating.scriban.7.3.3.nupkg.sha512",

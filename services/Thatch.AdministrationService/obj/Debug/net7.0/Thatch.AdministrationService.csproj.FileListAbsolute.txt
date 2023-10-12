@@ -549,3 +549,6 @@ C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Packages.dll
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.dll
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Widgets.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.TenantManagement.Domain.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.TenantManagement.Domain.Shared.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.AdministrationService\bin\Debug\net7.0\Volo.Abp.TenantManagement.EntityFrameworkCore.dll

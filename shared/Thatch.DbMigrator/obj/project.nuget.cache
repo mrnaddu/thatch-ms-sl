@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+8TMa8/wh1iuPtADUKzkUkFdEm/lWMpy+daKFWb75xZ2ImpFcJv0WS2pWIEIhwNh8u7VYbG/lJmWZ2IAzaxegw==",
+  "dgSpecHash": "9lb5cFgcmT0VKyvqZRliGLXVbhcOWbboNY7P2vJH7OD8QxwY0pRPU2Ep81JwsqWmcGt4QdpQgL7L0odJeitvdg==",
   "success": true,
   "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
   "expectedPackageFiles": [

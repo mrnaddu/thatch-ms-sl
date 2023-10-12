@@ -25,10 +25,10 @@ namespace Thatch.AdministrationService;
     typeof(AdministrationServiceControllerModule),
     typeof(AdministrationServiceDataModule),
     typeof(AbpEmailingModule),
-    typeof(ThatchHostingModule),
     typeof(AbpIdentityHttpApiClientModule),
     typeof(AbpHttpClientIdentityModelWebModule),
-    typeof(ThatchSharedMicroservicesModule)
+    typeof(ThatchSharedMicroservicesModule),
+    typeof(ThatchHostingModule)
 )]
 public class AdministrationServiceModule : AbpModule
 {
@@ -90,11 +90,10 @@ public class AdministrationServiceModule : AbpModule
         app.UseRouting();
         app.UseCors();
         app.UseAuthentication();
-        app.UseAbpRequestLocalization();
-        app.UseAuthorization();
         app.UseMultiTenancy();
-        app.UseAbpClaimsMap();
-        app.UseSwagger();
+        app.UseAbpRequestLocalization();
+        //app.UseMultiTenancy(); TODO Erorr DI MultiTenant
+        app.UseAuthorization();
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {

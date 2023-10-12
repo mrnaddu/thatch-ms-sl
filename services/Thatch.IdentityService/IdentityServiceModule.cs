@@ -81,7 +81,7 @@ public class IdentityServiceModule : AbpModule
         app.UseAuthentication();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
-        app.UseMultiTenancy();
+        //app.UseMultiTenancy(); TODO Erorr DI MultiTenant
         app.UseAbpClaimsMap();
         app.UseSwagger();
         app.UseSwagger();

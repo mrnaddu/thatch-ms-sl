@@ -4277,6 +4277,7 @@
           "Serilog.Settings.Configuration": "3.4.0",
           "Serilog.Sinks.Async": "1.5.0",
           "Serilog.Sinks.Seq": "5.2.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
           "Volo.Abp.AspNetCore.Serilog": "7.3.3",
           "Volo.Abp.Authorization": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
@@ -4288,6 +4289,7 @@
           "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
           "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
           "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
           "Volo.Abp.Swashbuckle": "7.3.3"
         },
         "compile": {
@@ -4301,10 +4303,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Thatch.Shared.Hosting": "1.0.0",
           "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3"
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3"
         },
         "compile": {
           "bin/placeholder/Thatch.Shared.Microservices.dll": {}
@@ -10849,8 +10851,8 @@
     },
     "Thatch.Shared.Hosting/1.0.0": {
       "type": "project",
-      "path": "../../../../Thatch-Backend/shared/Thatch.Shared.Hosting/Thatch.Shared.Hosting.csproj",
-      "msbuildProject": "../../../../Thatch-Backend/shared/Thatch.Shared.Hosting/Thatch.Shared.Hosting.csproj"
+      "path": "../../shared/Thatch.Shared.Hosting/Thatch.Shared.Hosting.csproj",
+      "msbuildProject": "../../shared/Thatch.Shared.Hosting/Thatch.Shared.Hosting.csproj"
     },
     "Thatch.Shared.Microservices/1.0.0": {
       "type": "project",
@@ -10878,7 +10880,6 @@
       "Volo.Abp.TenantManagement.Application.Contracts >= 7.3.3",
       "Volo.Abp.TenantManagement.Domain >= 7.3.3",
       "Volo.Abp.TenantManagement.Domain.Shared >= 7.3.3",
-      "Volo.Abp.TenantManagement.EntityFrameworkCore >= 7.3.3",
       "Volo.Abp.TenantManagement.HttpApi >= 7.3.3",
       "Volo.Abp.Validation >= 7.3.3"
     ]
@@ -10990,10 +10991,6 @@
             "version": "[7.3.3, )"
           },
           "Volo.Abp.TenantManagement.Domain.Shared": {
-            "target": "Package",
-            "version": "[7.3.3, )"
-          },
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.3.3, )"
           },

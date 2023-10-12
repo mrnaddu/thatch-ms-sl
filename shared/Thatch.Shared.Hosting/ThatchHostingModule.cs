@@ -13,6 +13,7 @@ using Volo.Abp.EntityFrameworkCore.PostgreSql;
 using Volo.Abp.EventBus.RabbitMq;
 using Volo.Abp.Localization;
 using Volo.Abp.Modularity;
+using Volo.Abp.MultiTenancy;
 using Volo.Abp.Swashbuckle;
 using Volo.Abp.Timing;
 
@@ -45,10 +46,16 @@ public class ThatchHostingModule : AbpModule
             });
         });
 
+        // Multi Tenant
+        Configure<AbpMultiTenancyOptions>(options =>
+        {
+            options.IsEnabled = true;
+        });
+
         // Connections Configure
         Configure<AbpDbConnectionOptions>(options =>
         {
-            options.Databases.Configure("ThatchService", database =>
+            options.Databases.Configure("AdministrationService", database =>
             {
                 database.MappedConnections.Add("AbpAuditLogging");
                 database.MappedConnections.Add("AbpPermissionManagement");
@@ -69,6 +76,12 @@ public class ThatchHostingModule : AbpModule
                 database.MappedConnections.Add("OpenIddictTokens");
                 database.MappedConnections.Add("AbpUsers");
                 database.MappedConnections.Add("AbpRoles");
+            });
+
+            options.Databases.Configure("TenantService", database =>
+            {
+                database.MappedConnections.Add("AbpTenantManagement");
+                database.IsUsedByTenants = false;
             });
         });
 

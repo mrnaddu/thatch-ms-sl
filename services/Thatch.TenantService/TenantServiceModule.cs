@@ -6,12 +6,23 @@ using Microsoft.IdentityModel.Logging;
 using StackExchange.Redis;
 using System.Collections.Generic;
 using Thatch.Shared.Hosting;
+using Thatch.Shared.Microservices;
+using Thatch.TenantService.Controllers;
+using Thatch.TenantService.Data;
+using Thatch.TenantService.Services;
 using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 
 namespace Thatch.TenantService;
 
+[DependsOn(
+    typeof(ThatchHostingModule),
+    typeof(TenantServiceServicesModule),
+    typeof(TenantServiceDataModule),
+    typeof(TenantServiceControllerModule),
+    typeof(ThatchSharedMicroservicesModule)
+    )]
 public class TenantServiceModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext  context)
@@ -66,7 +77,7 @@ public class TenantServiceModule : AbpModule
         app.UseAuthentication();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
-        app.UseMultiTenancy();
+        //app.UseMultiTenancy(); TODO Erorr DI MultiTenant
         app.UseAbpClaimsMap();
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>

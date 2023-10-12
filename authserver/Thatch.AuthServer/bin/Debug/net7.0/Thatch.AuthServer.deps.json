@@ -4129,17 +4129,14 @@
           "Volo.Abp.AutoMapper": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
           "Volo.Abp.FeatureManagement.Application": "7.3.3",
-          "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.FeatureManagement.HttpApi": "7.3.3",
           "Volo.Abp.PermissionManagement.Application": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain.Identity": "7.3.3",
           "Volo.Abp.PermissionManagement.Domain.IdentityServer": "7.3.3",
-          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.HttpApi": "7.3.3",
           "Volo.Abp.PermissionManagement.HttpApi.Client": "7.3.3",
           "Volo.Abp.SettingManagement.Application": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.SettingManagement.HttpApi": "7.3.3",
           "Volo.Abp.SettingManagement.HttpApi.Client": "7.3.3"
         },
@@ -4179,12 +4176,43 @@
           "Thatch.IdentityService.dll": {}
         }
       },
+      "Thatch.Shared.Hosting/1.0.0": {
+        "dependencies": {
+          "IdentityModel": "6.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0",
+          "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "7.0.3",
+          "Serilog.AspNetCore": "6.1.0",
+          "Serilog.Settings.Configuration": "3.4.0",
+          "Serilog.Sinks.Async": "1.5.0",
+          "Serilog.Sinks.Seq": "5.2.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
+          "Volo.Abp.AspNetCore.Serilog": "7.3.3",
+          "Volo.Abp.Authorization": "7.3.3",
+          "Volo.Abp.Autofac": "7.3.3",
+          "Volo.Abp.Caching.StackExchangeRedis": "7.3.3",
+          "Volo.Abp.Ddd.Application": "7.3.3",
+          "Volo.Abp.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.EntityFrameworkCore.PostgreSql": "7.3.3",
+          "Volo.Abp.EventBus.RabbitMQ": "7.3.3",
+          "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
+          "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
+          "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
+          "Volo.Abp.Swashbuckle": "7.3.3"
+        },
+        "runtime": {
+          "Thatch.Shared.Hosting.dll": {}
+        },
+        "compile": {
+          "Thatch.Shared.Hosting.dll": {}
+        }
+      },
       "Thatch.Shared.Microservices/1.0.0": {
         "dependencies": {
-          "Thatch.Shared.Hosting": "1.0.0",
           "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3"
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3"
         },
         "runtime": {
           "Thatch.Shared.Microservices.dll": {}
@@ -4213,7 +4241,6 @@
           "Volo.Abp.TenantManagement.Application.Contracts": "7.3.3",
           "Volo.Abp.TenantManagement.Domain": "7.3.3",
           "Volo.Abp.TenantManagement.Domain.Shared": "7.3.3",
-          "Volo.Abp.TenantManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.TenantManagement.HttpApi": "7.3.3",
           "Volo.Abp.Validation": "7.3.3"
         },
@@ -5997,30 +6024,6 @@
       "WindowsBase/4.0.0.0": {
         "compile": {
           "WindowsBase.dll": {}
-        },
-        "compileOnly": true
-      },
-      "Thatch.Shared.Hosting/1.0.0": {
-        "dependencies": {
-          "IdentityModel": "6.0.0",
-          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.0",
-          "Microsoft.AspNetCore.DataProtection.StackExchangeRedis": "7.0.3",
-          "Serilog.AspNetCore": "6.1.0",
-          "Serilog.Settings.Configuration": "3.4.0",
-          "Serilog.Sinks.Async": "1.5.0",
-          "Serilog.Sinks.Seq": "5.2.2",
-          "Volo.Abp.AspNetCore.Serilog": "7.3.3",
-          "Volo.Abp.Authorization": "7.3.3",
-          "Volo.Abp.Autofac": "7.3.3",
-          "Volo.Abp.Caching.StackExchangeRedis": "7.3.3",
-          "Volo.Abp.Ddd.Application": "7.3.3",
-          "Volo.Abp.EntityFrameworkCore": "7.3.3",
-          "Volo.Abp.EntityFrameworkCore.PostgreSql": "7.3.3",
-          "Volo.Abp.EventBus.RabbitMQ": "7.3.3",
-          "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
-          "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
-          "Volo.Abp.Localization": "7.3.3",
-          "Volo.Abp.Swashbuckle": "7.3.3"
         },
         "compileOnly": true
       }
@@ -8086,6 +8089,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Thatch.Shared.Hosting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Thatch.Shared.Microservices/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -9573,11 +9581,6 @@
     },
     "WindowsBase/4.0.0.0": {
       "type": "referenceassembly",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Thatch.Shared.Hosting/1.0.0": {
-      "type": "project",
       "serviceable": false,
       "sha512": ""
     }

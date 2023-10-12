@@ -673,3 +673,4 @@ C:\thatch-sl-ms\thatch-ms-sl\authserver\Thatch.AuthServer\obj\Debug\net7.0\refin
 C:\thatch-sl-ms\thatch-ms-sl\authserver\Thatch.AuthServer\obj\Debug\net7.0\Thatch.AuthServer.pdb
 C:\thatch-sl-ms\thatch-ms-sl\authserver\Thatch.AuthServer\obj\Debug\net7.0\Thatch.AuthServer.genruntimeconfig.cache
 C:\thatch-sl-ms\thatch-ms-sl\authserver\Thatch.AuthServer\obj\Debug\net7.0\ref\Thatch.AuthServer.dll
+C:\thatch-sl-ms\thatch-ms-sl\authserver\Thatch.AuthServer\bin\Debug\net7.0\Thatch.AuthServer.staticwebassets.runtime.json
