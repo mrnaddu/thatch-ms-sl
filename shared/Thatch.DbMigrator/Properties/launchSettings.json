@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Thatch.DbMigrator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

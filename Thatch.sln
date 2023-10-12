@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "authserver", "authserver", "{0E28456F-DE1D-4F3D-A1F2-E8463A3F0B92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.AuthServer", "authserver\Thatch.AuthServer\Thatch.AuthServer.csproj", "{42791B82-1528-433B-A405-0DAAA4BB1706}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{0BDA7F22-880A-4B00-A707-7D49712E3D2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.AdministrationService", "services\Thatch.AdministrationService\Thatch.AdministrationService.csproj", "{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.IdentityService", "services\Thatch.IdentityService\Thatch.IdentityService.csproj", "{876B6C76-FAD2-4C00-B066-CF796278CAD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.TenantService", "services\Thatch.TenantService\Thatch.TenantService.csproj", "{B472937D-33BF-4CD3-AC30-A74A7675E7B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{970E0981-C967-4D8F-B8B0-4F2E160CC30B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.DbMigrator", "shared\Thatch.DbMigrator\Thatch.DbMigrator.csproj", "{73FFC98E-E933-4857-B738-A2852CACD424}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Hosting", "shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj", "{480E0A10-8092-4DCC-BFEA-AFB235873239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItems", "solutionItems", "{6C674383-2405-4517-A38C-9DBC055ECA9C}"
+	ProjectSection(SolutionItems) = preProject
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Microservices", "..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj", "{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42791B82-1528-433B-A405-0DAAA4BB1706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42791B82-1528-433B-A405-0DAAA4BB1706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42791B82-1528-433B-A405-0DAAA4BB1706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42791B82-1528-433B-A405-0DAAA4BB1706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876B6C76-FAD2-4C00-B066-CF796278CAD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876B6C76-FAD2-4C00-B066-CF796278CAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876B6C76-FAD2-4C00-B066-CF796278CAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876B6C76-FAD2-4C00-B066-CF796278CAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B472937D-33BF-4CD3-AC30-A74A7675E7B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B472937D-33BF-4CD3-AC30-A74A7675E7B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B472937D-33BF-4CD3-AC30-A74A7675E7B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B472937D-33BF-4CD3-AC30-A74A7675E7B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73FFC98E-E933-4857-B738-A2852CACD424}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73FFC98E-E933-4857-B738-A2852CACD424}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73FFC98E-E933-4857-B738-A2852CACD424}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73FFC98E-E933-4857-B738-A2852CACD424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42791B82-1528-433B-A405-0DAAA4BB1706} = {0E28456F-DE1D-4F3D-A1F2-E8463A3F0B92}
+		{F0DD5A50-BEA8-4131-8028-CBB1FBBA401E} = {0BDA7F22-880A-4B00-A707-7D49712E3D2D}
+		{876B6C76-FAD2-4C00-B066-CF796278CAD3} = {0BDA7F22-880A-4B00-A707-7D49712E3D2D}
+		{B472937D-33BF-4CD3-AC30-A74A7675E7B3} = {0BDA7F22-880A-4B00-A707-7D49712E3D2D}
+		{73FFC98E-E933-4857-B738-A2852CACD424} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
+		{480E0A10-8092-4DCC-BFEA-AFB235873239} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
+		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74D387D9-ACD6-4FC7-A660-9DD22C964938}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<RootNamespace>Thatch.Shared.Hosting</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Volo.Abp.Autofac" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Localization" Version="7.3.3" />
+		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="Serilog.Sinks.Async" Version="1.5.0" />
+		<PackageReference Include="Serilog.Sinks.Seq" Version="5.2.2" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+		<PackageReference Include="IdentityModel" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="6.0.0" />
+		<PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Http.Client.IdentityModel.Web" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Swashbuckle" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Ddd.Application" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Authorization" Version="7.3.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Content Remove="C:\Users\moham\.nuget\packages\volo.abp.aspnetcore.serilog\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Serilog.abppkg.analyze.json" />
+		<Content Remove="C:\Users\moham\.nuget\packages\volo.abp.aspnetcore.serilog\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Serilog.abppkg.json" />
+		<Content Remove="C:\Users\moham\.nuget\packages\volo.abp.http.client.identitymodel.web\7.3.3\contentFiles\any\net7.0\Volo.Abp.Http.Client.IdentityModel.Web.abppkg.analyze.json" />
+		<Content Remove="C:\Users\moham\.nuget\packages\volo.abp.http.client.identitymodel.web\7.3.3\contentFiles\any\net7.0\Volo.Abp.Http.Client.IdentityModel.Web.abppkg.json" />
+		<Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.serilog\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Serilog.abppkg.analyze.json" />
+		<Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.serilog\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Serilog.abppkg.json" />
+		<Content Remove="C:\Users\user\.nuget\packages\volo.abp.http.client.identitymodel.web\7.3.3\contentFiles\any\net7.0\Volo.Abp.Http.Client.IdentityModel.Web.abppkg.analyze.json" />
+		<Content Remove="C:\Users\user\.nuget\packages\volo.abp.http.client.identitymodel.web\7.3.3\contentFiles\any\net7.0\Volo.Abp.Http.Client.IdentityModel.Web.abppkg.json" />
+	</ItemGroup>
+</Project>
