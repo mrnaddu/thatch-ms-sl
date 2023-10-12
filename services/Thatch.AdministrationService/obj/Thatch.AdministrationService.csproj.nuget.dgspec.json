@@ -423,6 +423,10 @@
               "target": "Package",
               "version": "[5.2.2, )"
             },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
             "Volo.Abp.AspNetCore.Serilog": {
               "target": "Package",
               "version": "[7.3.3, )"
@@ -464,6 +468,10 @@
               "version": "[7.3.3, )"
             },
             "Volo.Abp.Localization": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Volo.Abp.MultiTenancy": {
               "target": "Package",
               "version": "[7.3.3, )"
             },

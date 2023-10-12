@@ -8,6 +8,8 @@ using Thatch.Shared.Hosting;
 using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.IdentityModel.Logging;
 
 namespace Thatch.TenantService;
 
@@ -44,6 +46,7 @@ public class TenantServiceModule : AbpModule
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
+        IdentityModelEventSource.ShowPII = true;
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 

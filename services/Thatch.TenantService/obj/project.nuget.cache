@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2jCXfyjCkSg77hHfnWCIDIrcAwnOX/bKJz61itY3/NKIzBOJYxum3OLaGKjIaujREQvPN2MH8z+f9k5yCtCJsw==",
+  "dgSpecHash": "wl88janAzCZwkns2yB9j7mmwYsoUqARAOBeio7x3zvG3PQNyOvfnbbmZwqQqTJHfxIJTV6cJw3pO2Uc2tW+DBQ==",
   "success": true,
   "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj",
   "expectedPackageFiles": [

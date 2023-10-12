@@ -24,6 +24,10 @@
 		<PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="7.3.3" />
 		<PackageReference Include="Volo.Abp.Ddd.Application" Version="7.3.3" />
 		<PackageReference Include="Volo.Abp.Authorization" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.MultiTenancy" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Http.Client.IdentityModel.Web" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy" Version="7.3.3" />
 	</ItemGroup>
 
 	<ItemGroup>

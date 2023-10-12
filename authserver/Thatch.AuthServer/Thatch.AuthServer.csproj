@@ -38,6 +38,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\..\services\Thatch.IdentityService\Thatch.IdentityService.csproj" />
+		<ProjectReference Include="..\..\services\Thatch.TenantService\Thatch.TenantService.csproj" />
 		<ProjectReference Include="..\..\shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj" />
 		<ProjectReference Include="..\..\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
 	</ItemGroup>
