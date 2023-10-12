@@ -42,6 +42,7 @@
           "Serilog.Settings.Configuration": "3.4.0",
           "Serilog.Sinks.Async": "1.5.0",
           "Serilog.Sinks.Seq": "5.2.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
           "Volo.Abp.AspNetCore.Serilog": "7.3.3",
           "Volo.Abp.Authorization": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
@@ -53,6 +54,7 @@
           "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
           "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
           "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
           "Volo.Abp.Swashbuckle": "7.3.3",
           "Microsoft.AspNetCore.Antiforgery": "7.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "7.0.0.0",
@@ -1714,6 +1716,21 @@
           "lib/net7.0/Volo.Abp.AspNetCore.dll": {}
         }
       },
+      "Volo.Abp.AspNetCore.MultiTenancy/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.MultiTenancy.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.MultiTenancy.dll": {}
+        }
+      },
       "Volo.Abp.AspNetCore.Mvc/7.3.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.0",
@@ -1748,6 +1765,126 @@
         },
         "compile": {
           "lib/net7.0/Volo.Abp.AspNetCore.Mvc.Contracts.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI/7.3.3": {
+        "dependencies": {
+          "NUglify": "1.20.0",
+          "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.UI.Navigation": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Bundling/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions": "7.3.3",
+          "Volo.Abp.Minify": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bundling.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bundling.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.Core": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.MultiTenancy": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Packages/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions": "7.3.3",
+          "Volo.Abp.Localization": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Packages.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Packages.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.Packages": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.Widgets": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.dll": {}
+        }
+      },
+      "Volo.Abp.AspNetCore.Mvc.UI.Widgets/7.3.3": {
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc.UI.Bundling": "7.3.3"
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Widgets.dll": {
+            "assemblyVersion": "7.3.3.0",
+            "fileVersion": "7.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AspNetCore.Mvc.UI.Widgets.dll": {}
         }
       },
       "Volo.Abp.AspNetCore.Serilog/7.3.3": {
@@ -5534,6 +5671,13 @@
       "path": "volo.abp.aspnetcore/7.3.3",
       "hashPath": "volo.abp.aspnetcore.7.3.3.nupkg.sha512"
     },
+    "Volo.Abp.AspNetCore.MultiTenancy/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GNeAL+k5ej9iviJh3Dg4mlBIqDsVNjKL+RXTR8z1TnrzG2543RMeiFfX7mKB1B1q/apF0EHw0RLx2q5gCtMKNg==",
+      "path": "volo.abp.aspnetcore.multitenancy/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.multitenancy.7.3.3.nupkg.sha512"
+    },
     "Volo.Abp.AspNetCore.Mvc/7.3.3": {
       "type": "package",
       "serviceable": true,
@@ -5547,6 +5691,62 @@
       "sha512": "sha512-XCwunQOKqwmBCA4X6BwYXpuV3E3e4qd8Am3GyFKCsYmQZ+Vi6ypUuRsX9WxszskBJ3elj19yhOt8ktntF+2qIQ==",
       "path": "volo.abp.aspnetcore.mvc.contracts/7.3.3",
       "hashPath": "volo.abp.aspnetcore.mvc.contracts.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l7dwTO7IhBOGSwS2gQIOWowML9Vq8zx0ixFl5LMMl9AKqYQU2UZAz56EbpABixLCaZovMRNDJFHgnWk7ua6Baw==",
+      "path": "volo.abp.aspnetcore.mvc.ui/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Bootstrap/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYB/WEysm8m6OAPavtQZFQS+t/86QVtY0Lyd12DHJdLjAu7nXz4xN7nSpc2fo+02oXMJMnaQwJZ1nhLPZTba5Q==",
+      "path": "volo.abp.aspnetcore.mvc.ui.bootstrap/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.bootstrap.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Bundling/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CkCrVHa4XeOJLi5YdhAl+cia2Wiv/jNveuCI8IF212bAE2PlJTKCurqezUyIYzeAPhNKG4QAVEYzpSKReBOK4A==",
+      "path": "volo.abp.aspnetcore.mvc.ui.bundling/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.bundling.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W9HcewYbivcprWHC6zAUMFZc2MnsdL91zbANQXSgtJzWlSB9djUccjwq55RJYLkopADIAC9UAuxwfX4FuFRO/g==",
+      "path": "volo.abp.aspnetcore.mvc.ui.bundling.abstractions/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.bundling.abstractions.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGCpYW/iFz5y7QxhPnjL/9MWTraU+9WpD6/C/dxg0bsS+AmTcKiyEbWSYiSKsaFNf54/bWKHAmiCaPlHS7N+7g==",
+      "path": "volo.abp.aspnetcore.mvc.ui.multitenancy/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.multitenancy.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Packages/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SfvblKcvqVKjgn6Uof6/k3rYvCoi1L/aWhaVFVllOMlwAobaVvZKSx4VVXqifdwWX54gmIte3r5TAZWVuIUrzw==",
+      "path": "volo.abp.aspnetcore.mvc.ui.packages/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.packages.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DvpAgUCDuc4KxDtynwa14vVCH7d1talGNY0QkmmFjyK+sjAOIa84MdKSvYR6/X+I1JbFkS2hW9ug5WEsh6RvOA==",
+      "path": "volo.abp.aspnetcore.mvc.ui.theme.shared/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.theme.shared.7.3.3.nupkg.sha512"
+    },
+    "Volo.Abp.AspNetCore.Mvc.UI.Widgets/7.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5IeWb0FGrSCeGOhSvOhTUEUGTJPAqyWeFXI08Ab0AFk9wGtA8zeGm33SmhLkfPFn6pYxUBRJeBwndxSnM8WROQ==",
+      "path": "volo.abp.aspnetcore.mvc.ui.widgets/7.3.3",
+      "hashPath": "volo.abp.aspnetcore.mvc.ui.widgets.7.3.3.nupkg.sha512"
     },
     "Volo.Abp.AspNetCore.Serilog/7.3.3": {
       "type": "package",

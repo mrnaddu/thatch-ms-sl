@@ -544,3 +544,12 @@ C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\obj\Debug\net7.0\re
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\obj\Debug\net7.0\Thatch.IdentityService.pdb
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\obj\Debug\net7.0\Thatch.IdentityService.genruntimeconfig.cache
 C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\obj\Debug\net7.0\ref\Thatch.IdentityService.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.MultiTenancy.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Bundling.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Bundling.Abstractions.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Packages.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.dll
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.IdentityService\bin\Debug\net7.0\Volo.Abp.AspNetCore.Mvc.UI.Widgets.dll

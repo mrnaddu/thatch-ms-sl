@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Logging;
+using StackExchange.Redis;
 using System.Collections.Generic;
 using Thatch.AdministrationService.Controllers;
 using Thatch.AdministrationService.Data;
@@ -9,6 +12,7 @@ using Thatch.AdministrationService.Services;
 using Thatch.Shared.Hosting;
 using Thatch.Shared.Microservices;
 using Volo.Abp;
+using Volo.Abp.Caching;
 using Volo.Abp.Emailing;
 using Volo.Abp.Http.Client.IdentityModel.Web;
 using Volo.Abp.Identity;
@@ -50,10 +54,24 @@ public class AdministrationServiceModule : AbpModule
         {
             context.Services.Replace(ServiceDescriptor.Singleton<IEmailSender, NullEmailSender>());
         }
+
+        Configure<AbpDistributedCacheOptions>(options =>
+        {
+            options.KeyPrefix = "AdministrationService:";
+        });
+
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("AdministrationService");
+        if (!hostingEnvironment.IsDevelopment())
+        {
+            var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
+            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "AdministrationService-Protection-Keys");
+        }
     }
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
+        IdentityModelEventSource.ShowPII = true;
+
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 
@@ -74,7 +92,9 @@ public class AdministrationServiceModule : AbpModule
         app.UseAuthentication();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
+        app.UseMultiTenancy();
         app.UseAbpClaimsMap();
+        app.UseSwagger();
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {

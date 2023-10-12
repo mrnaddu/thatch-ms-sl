@@ -3244,6 +3244,59 @@
           }
         }
       },
+      "Volo.Abp.AuditLogging.Domain/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AuditLogging.Domain.Shared": "7.3.3",
+          "Volo.Abp.Auditing": "7.3.3",
+          "Volo.Abp.Ddd.Domain": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AuditLogging.Domain.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AuditLogging.Domain.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.AuditLogging.Domain.Shared/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Embedded": "7.0.0",
+          "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.Validation": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AuditLogging.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.AuditLogging.EntityFrameworkCore/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AuditLogging.Domain": "7.3.3",
+          "Volo.Abp.EntityFrameworkCore": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.Authorization/7.3.3": {
         "type": "package",
         "dependencies": {
@@ -3709,6 +3762,24 @@
           }
         }
       },
+      "Volo.Abp.FeatureManagement.Application/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Ddd.Application": "7.3.3",
+          "Volo.Abp.FeatureManagement.Application.Contracts": "7.3.3",
+          "Volo.Abp.FeatureManagement.Domain": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.FeatureManagement.Application.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.FeatureManagement.Application.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.FeatureManagement.Application.Contracts/7.3.3": {
         "type": "package",
         "dependencies": {
@@ -4139,6 +4210,22 @@
           }
         }
       },
+      "Volo.Abp.IdentityServer.Domain.Shared/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Validation": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.IdentityServer.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.IdentityServer.Domain.Shared.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.Json/7.3.3": {
         "type": "package",
         "dependencies": {
@@ -4473,6 +4560,23 @@
           }
         }
       },
+      "Volo.Abp.PermissionManagement.Domain.IdentityServer/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.IdentityServer.Domain.Shared": "7.3.3",
+          "Volo.Abp.PermissionManagement.Domain": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.PermissionManagement.Domain.OpenIddict/7.3.3": {
         "type": "package",
         "dependencies": {
@@ -4520,6 +4624,40 @@
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.PermissionManagement.EntityFrameworkCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.HttpApi/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.PermissionManagement.Application.Contracts": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.PermissionManagement.HttpApi.Client/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Http.Client": "7.3.3",
+          "Volo.Abp.PermissionManagement.Application.Contracts": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -4590,6 +4728,43 @@
           }
         }
       },
+      "Volo.Abp.SettingManagement.Application/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Ddd.Application": "7.3.3",
+          "Volo.Abp.Emailing": "7.3.3",
+          "Volo.Abp.SettingManagement.Application.Contracts": "7.3.3",
+          "Volo.Abp.SettingManagement.Domain": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.SettingManagement.Application.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.SettingManagement.Application.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.Application.Contracts/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Authorization.Abstractions": "7.3.3",
+          "Volo.Abp.Ddd.Application.Contracts": "7.3.3",
+          "Volo.Abp.SettingManagement.Domain.Shared": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.SettingManagement.Application.Contracts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Volo.Abp.SettingManagement.Domain/7.3.3": {
         "type": "package",
         "dependencies": {
@@ -4641,6 +4816,40 @@
         },
         "runtime": {
           "lib/net7.0/Volo.Abp.SettingManagement.EntityFrameworkCore.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.HttpApi/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.SettingManagement.Application.Contracts": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Volo.Abp.SettingManagement.HttpApi.Client/7.3.3": {
+        "type": "package",
+        "dependencies": {
+          "Volo.Abp.Http.Client": "7.3.3",
+          "Volo.Abp.SettingManagement.Application.Contracts": "7.3.3"
+        },
+        "compile": {
+          "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.Client.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.Client.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -5061,6 +5270,44 @@
           }
         }
       },
+      "Thatch.AdministrationService/1.1.3": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "7.0.1",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.1",
+          "Thatch.Shared.Hosting": "1.0.0",
+          "Thatch.Shared.Microservices": "1.0.0",
+          "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
+          "Volo.Abp.AuditLogging.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.AutoMapper": "7.3.3",
+          "Volo.Abp.Autofac": "7.3.3",
+          "Volo.Abp.FeatureManagement.Application": "7.3.3",
+          "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.FeatureManagement.HttpApi": "7.3.3",
+          "Volo.Abp.PermissionManagement.Application": "7.3.3",
+          "Volo.Abp.PermissionManagement.Domain": "7.3.3",
+          "Volo.Abp.PermissionManagement.Domain.Identity": "7.3.3",
+          "Volo.Abp.PermissionManagement.Domain.IdentityServer": "7.3.3",
+          "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.PermissionManagement.HttpApi": "7.3.3",
+          "Volo.Abp.PermissionManagement.HttpApi.Client": "7.3.3",
+          "Volo.Abp.SettingManagement.Application": "7.3.3",
+          "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
+          "Volo.Abp.SettingManagement.HttpApi": "7.3.3",
+          "Volo.Abp.SettingManagement.HttpApi.Client": "7.3.3"
+        },
+        "compile": {
+          "bin/placeholder/Thatch.AdministrationService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Thatch.AdministrationService.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Thatch.IdentityService/1.1.3": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -5073,6 +5320,7 @@
           "Volo.Abp.Account.HttpApi": "7.3.3",
           "Volo.Abp.AspNetCore.Authentication.JwtBearer": "7.3.3",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
           "Volo.Abp.AspNetCore.Serilog": "7.3.3",
           "Volo.Abp.AutoMapper": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
@@ -5151,6 +5399,7 @@
           "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
           "Volo.Abp.Authorization": "7.3.3",
           "Volo.Abp.AutoMapper": "7.3.3",
           "Volo.Abp.Ddd.Application": "7.3.3",
@@ -10628,6 +10877,69 @@
         "volo.abp.auditing.contracts.nuspec"
       ]
     },
+    "Volo.Abp.AuditLogging.Domain/7.3.3": {
+      "sha512": "I/Wl0j7Zdhcosk6wOuOgSOEcjceRgdZT+vbwhWYkjGVhIrgPdHx6SMVXExlBa2IdAyR08+69mEMZ9g9B8/vmkw==",
+      "type": "package",
+      "path": "volo.abp.auditlogging.domain/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.AuditLogging.Domain.abppkg.analyze.json",
+        "content/Volo.Abp.AuditLogging.Domain.abppkg.json",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.dll",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.pdb",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.xml",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.dll",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.pdb",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.xml",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.dll",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.pdb",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.xml",
+        "volo.abp.auditlogging.domain.7.3.3.nupkg.sha512",
+        "volo.abp.auditlogging.domain.nuspec"
+      ]
+    },
+    "Volo.Abp.AuditLogging.Domain.Shared/7.3.3": {
+      "sha512": "2CqvYKmwV3B7lk7X52Y0I2UrvCI63RVOIrNq6p6Bf/V/Yc9/u5n2WNnCy9Lcn0aj44PzFoOHsMAB962GwmVReQ==",
+      "type": "package",
+      "path": "volo.abp.auditlogging.domain.shared/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg.analyze.json",
+        "content/Volo.Abp.AuditLogging.Domain.Shared.abppkg.json",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/net7.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/netstandard2.0/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.dll",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.pdb",
+        "lib/netstandard2.1/Volo.Abp.AuditLogging.Domain.Shared.xml",
+        "volo.abp.auditlogging.domain.shared.7.3.3.nupkg.sha512",
+        "volo.abp.auditlogging.domain.shared.nuspec"
+      ]
+    },
+    "Volo.Abp.AuditLogging.EntityFrameworkCore/7.3.3": {
+      "sha512": "pnwhyWtbmmIv1sr9CT1Z0WVy8rAag7RPov99Crpu/VDtStGL7Y60K9MKyfmcOnqajYrQgXnJzTlK/wGTokD99w==",
+      "type": "package",
+      "path": "volo.abp.auditlogging.entityframeworkcore/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.AuditLogging.EntityFrameworkCore.abppkg.analyze.json",
+        "content/Volo.Abp.AuditLogging.EntityFrameworkCore.abppkg.json",
+        "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.dll",
+        "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.pdb",
+        "lib/net7.0/Volo.Abp.AuditLogging.EntityFrameworkCore.xml",
+        "volo.abp.auditlogging.entityframeworkcore.7.3.3.nupkg.sha512",
+        "volo.abp.auditlogging.entityframeworkcore.nuspec"
+      ]
+    },
     "Volo.Abp.Authorization/7.3.3": {
       "sha512": "weMZIh7kICNHH/SKSXWbcbQI6No4K4Wc+STawdiLyYUD7cMDYkZnp3nHP09cTHOx6xOSRDai1jt0utUui4pZ+g==",
       "type": "package",
@@ -11150,6 +11462,23 @@
         "volo.abp.exceptionhandling.nuspec"
       ]
     },
+    "Volo.Abp.FeatureManagement.Application/7.3.3": {
+      "sha512": "AwY7u8LW05yOsfaOVjdxRWpN/vRyLjQtI3wuEhB6cAMOYt8Vd/LXcOQ71XWDpx6zHGYaf/ReQsKa0cD4BnaslQ==",
+      "type": "package",
+      "path": "volo.abp.featuremanagement.application/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.FeatureManagement.Application.abppkg.analyze.json",
+        "content/Volo.Abp.FeatureManagement.Application.abppkg.json",
+        "lib/net7.0/Volo.Abp.FeatureManagement.Application.dll",
+        "lib/net7.0/Volo.Abp.FeatureManagement.Application.pdb",
+        "lib/net7.0/Volo.Abp.FeatureManagement.Application.xml",
+        "volo.abp.featuremanagement.application.7.3.3.nupkg.sha512",
+        "volo.abp.featuremanagement.application.nuspec"
+      ]
+    },
     "Volo.Abp.FeatureManagement.Application.Contracts/7.3.3": {
       "sha512": "hezULyOEEH/ec+j8bOwNv/7h6qgwCtgVf5olGhFfgXNkRWBRPs51DHc7Dp2yeBe6I6D7uf+tsL4R7NZZQkgnvQ==",
       "type": "package",
@@ -11612,6 +11941,29 @@
         "volo.abp.identitymodel.nuspec"
       ]
     },
+    "Volo.Abp.IdentityServer.Domain.Shared/7.3.3": {
+      "sha512": "Iq4KM9Lc3FY4oE5swZicvHJ25OoacCHgSvuPWqHxGIDU9bG8AGBNXElq+aTpFQ+720z7OLDMY0KdFCjv/zgvMw==",
+      "type": "package",
+      "path": "volo.abp.identityserver.domain.shared/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.IdentityServer.Domain.Shared.abppkg.analyze.json",
+        "content/Volo.Abp.IdentityServer.Domain.Shared.abppkg.json",
+        "lib/net7.0/Volo.Abp.IdentityServer.Domain.Shared.dll",
+        "lib/net7.0/Volo.Abp.IdentityServer.Domain.Shared.pdb",
+        "lib/net7.0/Volo.Abp.IdentityServer.Domain.Shared.xml",
+        "lib/netstandard2.0/Volo.Abp.IdentityServer.Domain.Shared.dll",
+        "lib/netstandard2.0/Volo.Abp.IdentityServer.Domain.Shared.pdb",
+        "lib/netstandard2.0/Volo.Abp.IdentityServer.Domain.Shared.xml",
+        "lib/netstandard2.1/Volo.Abp.IdentityServer.Domain.Shared.dll",
+        "lib/netstandard2.1/Volo.Abp.IdentityServer.Domain.Shared.pdb",
+        "lib/netstandard2.1/Volo.Abp.IdentityServer.Domain.Shared.xml",
+        "volo.abp.identityserver.domain.shared.7.3.3.nupkg.sha512",
+        "volo.abp.identityserver.domain.shared.nuspec"
+      ]
+    },
     "Volo.Abp.Json/7.3.3": {
       "sha512": "u/Hcv61CfxYl/RmjBLJb+EMAtq6xhRDdyWwr0CbzqesNnkIdzSPu3U59wGiT/JbWVW8f8EODhBo5pG0cdYvhPg==",
       "type": "package",
@@ -12002,6 +12354,29 @@
         "volo.abp.permissionmanagement.domain.identity.nuspec"
       ]
     },
+    "Volo.Abp.PermissionManagement.Domain.IdentityServer/7.3.3": {
+      "sha512": "mLSay68ySuxRGs2Q3DN/fvypx4sJ/UWtRKXhFna0ed8YDEk2HtZihsbNIqvA/NYe4WS3z+OIpM8GPvZfLPZfcw==",
+      "type": "package",
+      "path": "volo.abp.permissionmanagement.domain.identityserver/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.PermissionManagement.Domain.IdentityServer.abppkg.analyze.json",
+        "content/Volo.Abp.PermissionManagement.Domain.IdentityServer.abppkg.json",
+        "lib/net7.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll",
+        "lib/net7.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.pdb",
+        "lib/net7.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.xml",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.pdb",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.Domain.IdentityServer.xml",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.IdentityServer.dll",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.IdentityServer.pdb",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.Domain.IdentityServer.xml",
+        "volo.abp.permissionmanagement.domain.identityserver.7.3.3.nupkg.sha512",
+        "volo.abp.permissionmanagement.domain.identityserver.nuspec"
+      ]
+    },
     "Volo.Abp.PermissionManagement.Domain.OpenIddict/7.3.3": {
       "sha512": "eBnr/6gbGK8tCKgIjjq+IoRfjdEAFWdYj4FOecNzsHpxQqomBNDoklZ4gS53iri9wl+/FtyPBNpmsU+wgTP8Sw==",
       "type": "package",
@@ -12063,6 +12438,46 @@
         "lib/net7.0/Volo.Abp.PermissionManagement.EntityFrameworkCore.xml",
         "volo.abp.permissionmanagement.entityframeworkcore.7.3.3.nupkg.sha512",
         "volo.abp.permissionmanagement.entityframeworkcore.nuspec"
+      ]
+    },
+    "Volo.Abp.PermissionManagement.HttpApi/7.3.3": {
+      "sha512": "OUL4r89IV1KK+RnpAOsd7hYo1WJJUXYMLhHd7RPvsmLTf6i2ke9iZkLHYqcjArUnfbycSVuPjU5t5knZCkeHjw==",
+      "type": "package",
+      "path": "volo.abp.permissionmanagement.httpapi/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.PermissionManagement.HttpApi.abppkg.analyze.json",
+        "content/Volo.Abp.PermissionManagement.HttpApi.abppkg.json",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.dll",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.pdb",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.xml",
+        "volo.abp.permissionmanagement.httpapi.7.3.3.nupkg.sha512",
+        "volo.abp.permissionmanagement.httpapi.nuspec"
+      ]
+    },
+    "Volo.Abp.PermissionManagement.HttpApi.Client/7.3.3": {
+      "sha512": "obW9RDrQc7+eX7qP+ZIp+b+yUBNBWSBEWQG5CI5TbRH6mW6ZOpnc7XthvazpcuW58BQLgbBDC0C6CJWLFO8pBQ==",
+      "type": "package",
+      "path": "volo.abp.permissionmanagement.httpapi.client/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.PermissionManagement.HttpApi.Client.abppkg.analyze.json",
+        "content/Volo.Abp.PermissionManagement.HttpApi.Client.abppkg.json",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
+        "lib/net7.0/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
+        "lib/netstandard2.0/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.dll",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.pdb",
+        "lib/netstandard2.1/Volo.Abp.PermissionManagement.HttpApi.Client.xml",
+        "volo.abp.permissionmanagement.httpapi.client.7.3.3.nupkg.sha512",
+        "volo.abp.permissionmanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.RabbitMQ/7.3.3": {
@@ -12157,6 +12572,46 @@
         "volo.abp.serialization.nuspec"
       ]
     },
+    "Volo.Abp.SettingManagement.Application/7.3.3": {
+      "sha512": "fNm0YI2YHciux3nyhuSFt5iY0ha7o3YAxQEnXSNa2QNJ6qqWYrEaZx/HuMpVxOve1TtWC5zyfPCSxZr+3O8KDg==",
+      "type": "package",
+      "path": "volo.abp.settingmanagement.application/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.SettingManagement.Application.abppkg.analyze.json",
+        "content/Volo.Abp.SettingManagement.Application.abppkg.json",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.dll",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.pdb",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.xml",
+        "volo.abp.settingmanagement.application.7.3.3.nupkg.sha512",
+        "volo.abp.settingmanagement.application.nuspec"
+      ]
+    },
+    "Volo.Abp.SettingManagement.Application.Contracts/7.3.3": {
+      "sha512": "wyYmyQrqTNl1CDzdh4bEjCoP1XJrwQ6icN7I1komJPekNB4B7ztVMOtZCnU21bGQ5OusM3kZfRgTsW/mzkoU3A==",
+      "type": "package",
+      "path": "volo.abp.settingmanagement.application.contracts/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.SettingManagement.Application.Contracts.abppkg.analyze.json",
+        "content/Volo.Abp.SettingManagement.Application.Contracts.abppkg.json",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/net7.0/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.dll",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.pdb",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.Application.Contracts.xml",
+        "volo.abp.settingmanagement.application.contracts.7.3.3.nupkg.sha512",
+        "volo.abp.settingmanagement.application.contracts.nuspec"
+      ]
+    },
     "Volo.Abp.SettingManagement.Domain/7.3.3": {
       "sha512": "6kxv5Qig7qjRZ6RjsS0/+23+ZJ96r/aNzDjy8EcvY2thCgdQ5ZzZC5IBDdCTEa+wGGQSX95q3trMMJ4Rzl+mig==",
       "type": "package",
@@ -12218,6 +12673,46 @@
         "lib/net7.0/Volo.Abp.SettingManagement.EntityFrameworkCore.xml",
         "volo.abp.settingmanagement.entityframeworkcore.7.3.3.nupkg.sha512",
         "volo.abp.settingmanagement.entityframeworkcore.nuspec"
+      ]
+    },
+    "Volo.Abp.SettingManagement.HttpApi/7.3.3": {
+      "sha512": "uv1XU2Le9Qg74ojTsf09wDrU07qOUt12oXrxXvTrb6vWKJdu+SZ9WjeReOM6jQbTVEC5vY/rnWnPEmqfYLWuvA==",
+      "type": "package",
+      "path": "volo.abp.settingmanagement.httpapi/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.SettingManagement.HttpApi.abppkg.analyze.json",
+        "content/Volo.Abp.SettingManagement.HttpApi.abppkg.json",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.dll",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.pdb",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.xml",
+        "volo.abp.settingmanagement.httpapi.7.3.3.nupkg.sha512",
+        "volo.abp.settingmanagement.httpapi.nuspec"
+      ]
+    },
+    "Volo.Abp.SettingManagement.HttpApi.Client/7.3.3": {
+      "sha512": "MmefsT+n+vvUyw27uHeFjyT//DVmyrDascBDqBUB7Srjg+9USzV4cj2lXQ6QZLAxPJd+Mtd6Mq7oned2eGA9nQ==",
+      "type": "package",
+      "path": "volo.abp.settingmanagement.httpapi.client/7.3.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NuGet.md",
+        "content/Volo.Abp.SettingManagement.HttpApi.Client.abppkg.analyze.json",
+        "content/Volo.Abp.SettingManagement.HttpApi.Client.abppkg.json",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.Client.dll",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
+        "lib/net7.0/Volo.Abp.SettingManagement.HttpApi.Client.xml",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.dll",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
+        "lib/netstandard2.0/Volo.Abp.SettingManagement.HttpApi.Client.xml",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.dll",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.pdb",
+        "lib/netstandard2.1/Volo.Abp.SettingManagement.HttpApi.Client.xml",
+        "volo.abp.settingmanagement.httpapi.client.7.3.3.nupkg.sha512",
+        "volo.abp.settingmanagement.httpapi.client.nuspec"
       ]
     },
     "Volo.Abp.Settings/7.3.3": {
@@ -12736,6 +13231,11 @@
         "volo.abp.virtualfilesystem.nuspec"
       ]
     },
+    "Thatch.AdministrationService/1.1.3": {
+      "type": "project",
+      "path": "../../services/Thatch.AdministrationService/Thatch.AdministrationService.csproj",
+      "msbuildProject": "../../services/Thatch.AdministrationService/Thatch.AdministrationService.csproj"
+    },
     "Thatch.IdentityService/1.1.3": {
       "type": "project",
       "path": "../../services/Thatch.IdentityService/Thatch.IdentityService.csproj",
@@ -12759,10 +13259,10 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
       "DistributedLock.Redis >= 1.0.2",
       "Microsoft.AspNetCore.DataProtection.StackExchangeRedis >= 7.0.3",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.0",
+      "Thatch.AdministrationService >= 1.1.3",
       "Thatch.IdentityService >= 1.1.3",
       "Thatch.Shared.Hosting >= 1.0.0",
       "Thatch.TenantService >= 1.1.3",
@@ -12800,6 +13300,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj": {
+              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj"
+            },
             "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj": {
               "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj"
             },
@@ -12808,9 +13311,6 @@
             },
             "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj": {
               "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj"
-            },
-            "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
-              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj"
             }
           }
         }
@@ -12881,16 +13381,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

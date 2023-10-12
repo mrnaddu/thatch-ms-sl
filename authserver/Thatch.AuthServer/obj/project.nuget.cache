@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "odgZgIPeGx+nB0T0eI68tgVea0nE7cpp9pJ75aJkevwzJXWaJ4HSRkwDyuVIy2fNoYMSmoPwqcKF2JTeN4iybw==",
-  "success": false,
+  "dgSpecHash": "0dziP57b/9Q+G13Dh3xDLi19DAUKtlL6SKXDExR5eRj137TDWoTxIkWi4HpEY9JdDFJKCNfZbS8H9gs478C/Vg==",
+  "success": true,
   "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
@@ -186,6 +186,9 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.aspnetcore.serilog\\7.3.3\\volo.abp.aspnetcore.serilog.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.auditing\\7.3.3\\volo.abp.auditing.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.auditing.contracts\\7.3.3\\volo.abp.auditing.contracts.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.auditlogging.domain\\7.3.3\\volo.abp.auditlogging.domain.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.auditlogging.domain.shared\\7.3.3\\volo.abp.auditlogging.domain.shared.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.auditlogging.entityframeworkcore\\7.3.3\\volo.abp.auditlogging.entityframeworkcore.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.authorization\\7.3.3\\volo.abp.authorization.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.authorization.abstractions\\7.3.3\\volo.abp.authorization.abstractions.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.autofac\\7.3.3\\volo.abp.autofac.7.3.3.nupkg.sha512",
@@ -210,6 +213,7 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.eventbus.abstractions\\7.3.3\\volo.abp.eventbus.abstractions.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.eventbus.rabbitmq\\7.3.3\\volo.abp.eventbus.rabbitmq.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.exceptionhandling\\7.3.3\\volo.abp.exceptionhandling.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.featuremanagement.application\\7.3.3\\volo.abp.featuremanagement.application.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.featuremanagement.application.contracts\\7.3.3\\volo.abp.featuremanagement.application.contracts.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.featuremanagement.domain\\7.3.3\\volo.abp.featuremanagement.domain.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.featuremanagement.domain.shared\\7.3.3\\volo.abp.featuremanagement.domain.shared.7.3.3.nupkg.sha512",
@@ -232,6 +236,7 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.identity.httpapi\\7.3.3\\volo.abp.identity.httpapi.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.identity.httpapi.client\\7.3.3\\volo.abp.identity.httpapi.client.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.identitymodel\\7.3.3\\volo.abp.identitymodel.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.identityserver.domain.shared\\7.3.3\\volo.abp.identityserver.domain.shared.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.json\\7.3.3\\volo.abp.json.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.json.abstractions\\7.3.3\\volo.abp.json.abstractions.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.json.systemtextjson\\7.3.3\\volo.abp.json.systemtextjson.7.3.3.nupkg.sha512",
@@ -250,16 +255,23 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.application.contracts\\7.3.3\\volo.abp.permissionmanagement.application.contracts.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.domain\\7.3.3\\volo.abp.permissionmanagement.domain.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.domain.identity\\7.3.3\\volo.abp.permissionmanagement.domain.identity.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.domain.identityserver\\7.3.3\\volo.abp.permissionmanagement.domain.identityserver.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.domain.openiddict\\7.3.3\\volo.abp.permissionmanagement.domain.openiddict.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.domain.shared\\7.3.3\\volo.abp.permissionmanagement.domain.shared.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.entityframeworkcore\\7.3.3\\volo.abp.permissionmanagement.entityframeworkcore.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.httpapi\\7.3.3\\volo.abp.permissionmanagement.httpapi.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.permissionmanagement.httpapi.client\\7.3.3\\volo.abp.permissionmanagement.httpapi.client.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.rabbitmq\\7.3.3\\volo.abp.rabbitmq.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.remoteservices\\7.3.3\\volo.abp.remoteservices.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.security\\7.3.3\\volo.abp.security.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.serialization\\7.3.3\\volo.abp.serialization.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.application\\7.3.3\\volo.abp.settingmanagement.application.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.application.contracts\\7.3.3\\volo.abp.settingmanagement.application.contracts.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.domain\\7.3.3\\volo.abp.settingmanagement.domain.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.domain.shared\\7.3.3\\volo.abp.settingmanagement.domain.shared.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.entityframeworkcore\\7.3.3\\volo.abp.settingmanagement.entityframeworkcore.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.httpapi\\7.3.3\\volo.abp.settingmanagement.httpapi.7.3.3.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\volo.abp.settingmanagement.httpapi.client\\7.3.3\\volo.abp.settingmanagement.httpapi.client.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.settings\\7.3.3\\volo.abp.settings.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.specifications\\7.3.3\\volo.abp.specifications.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.swashbuckle\\7.3.3\\volo.abp.swashbuckle.7.3.3.nupkg.sha512",
@@ -285,15 +297,5 @@
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.validation.abstractions\\7.3.3\\volo.abp.validation.abstractions.7.3.3.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\volo.abp.virtualfilesystem\\7.3.3\\volo.abp.virtualfilesystem.7.3.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Unable to find project information for 'C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

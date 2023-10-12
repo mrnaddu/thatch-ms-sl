@@ -267,6 +267,10 @@
               "target": "Package",
               "version": "[7.3.3, )"
             },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
             "Volo.Abp.AuditLogging.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.3.3, )"

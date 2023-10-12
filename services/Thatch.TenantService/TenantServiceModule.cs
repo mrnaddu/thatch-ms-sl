@@ -2,14 +2,13 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Logging;
 using StackExchange.Redis;
 using System.Collections.Generic;
 using Thatch.Shared.Hosting;
 using Volo.Abp;
 using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.IdentityModel.Logging;
 
 namespace Thatch.TenantService;
 
@@ -33,7 +32,7 @@ public class TenantServiceModule : AbpModule
 
         Configure<AbpDistributedCacheOptions>(options =>
         {
-            options.KeyPrefix = "SaaS:";
+            options.KeyPrefix = "TenantService:";
         });
 
         var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("TenantService");
@@ -47,6 +46,7 @@ public class TenantServiceModule : AbpModule
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
         IdentityModelEventSource.ShowPII = true;
+
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 
@@ -66,8 +66,8 @@ public class TenantServiceModule : AbpModule
         app.UseAuthentication();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
-        app.UseAbpClaimsMap();
         app.UseMultiTenancy();
+        app.UseAbpClaimsMap();
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {

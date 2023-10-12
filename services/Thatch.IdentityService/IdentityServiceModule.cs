@@ -1,7 +1,11 @@
 ﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Hosting.Internal;
+using Microsoft.IdentityModel.Logging;
+using StackExchange.Redis;
 using System.Collections.Generic;
 using Thatch.IdentityService.Controllers;
 using Thatch.IdentityService.Data;
@@ -9,6 +13,7 @@ using Thatch.IdentityService.Services;
 using Thatch.Shared.Hosting;
 using Thatch.Shared.Microservices;
 using Volo.Abp;
+using Volo.Abp.Caching;
 using Volo.Abp.Modularity;
 
 namespace Thatch.IdentityService;
@@ -24,7 +29,9 @@ public class IdentityServiceModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)
     {
+        var hostingEnvironment = context.Services.GetHostingEnvironment();
         var configuration = context.Services.GetConfiguration();
+
         // CongigureJWT 
         JwtBearerConfigurationHelper.Configure(context, "IdentityService");
 
@@ -36,10 +43,24 @@ public class IdentityServiceModule : AbpModule
                     {"IdentityService", "IdentityService API"}
                     },
            apiTitle: "IdentityService API");
+
+        Configure<AbpDistributedCacheOptions>(options =>
+        {
+            options.KeyPrefix = "IdentityService:";
+        });
+
+        var dataProtectionBuilder = context.Services.AddDataProtection().SetApplicationName("IdentityService");
+        if (!hostingEnvironment.IsDevelopment())
+        {
+            var redis = ConnectionMultiplexer.Connect(configuration["Redis:Configuration"]);
+            dataProtectionBuilder.PersistKeysToStackExchangeRedis(redis, "IdentityService-Protection-Keys");
+        }
     }
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
+        IdentityModelEventSource.ShowPII = true;
+
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 
@@ -51,6 +72,7 @@ public class IdentityServiceModule : AbpModule
         {
             app.UseHsts();
         }
+
         app.UseHttpsRedirection();
         app.UseCorrelationId();
         app.UseStaticFiles();
@@ -59,7 +81,9 @@ public class IdentityServiceModule : AbpModule
         app.UseAuthentication();
         app.UseAbpRequestLocalization();
         app.UseAuthorization();
+        app.UseMultiTenancy();
         app.UseAbpClaimsMap();
+        app.UseSwagger();
         app.UseSwagger();
         app.UseAbpSwaggerUI(options =>
         {

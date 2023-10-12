@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qYv4MU87MwvirZCn2LxNeIYx8sC/EiupTQmdN7VzRmU=",
+  "Source": "Thatch.TenantService",
+  "BasePath": "_content/Thatch.TenantService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

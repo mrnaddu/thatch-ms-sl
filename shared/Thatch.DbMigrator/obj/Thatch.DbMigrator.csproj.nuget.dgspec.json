@@ -267,6 +267,10 @@
               "target": "Package",
               "version": "[7.3.3, )"
             },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
             "Volo.Abp.AuditLogging.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.3.3, )"
@@ -426,6 +430,10 @@
               "target": "Package",
               "version": "[7.3.3, )"
             },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
             "Volo.Abp.AspNetCore.Serilog": {
               "target": "Package",
               "version": "[7.3.3, )"
@@ -546,6 +554,10 @@
               "version": "[1.18.0, )"
             },
             "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": {
               "target": "Package",
               "version": "[7.3.3, )"
             },

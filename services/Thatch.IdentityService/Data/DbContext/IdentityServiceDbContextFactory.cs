@@ -26,8 +26,10 @@ public class IdentityServiceDbContextFactory : IDesignTimeDbContextFactory<Ident
 
     private static IConfigurationRoot BuildConfiguration()
     {
+        var path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())?.FullName, "Thatch.IdentityService");
+
         var builder = new ConfigurationBuilder()
-            .SetBasePath(Directory.GetCurrentDirectory())
+            .SetBasePath(path)
             .AddJsonFile("appsettings.json", optional: false);
 
         return builder.Build();

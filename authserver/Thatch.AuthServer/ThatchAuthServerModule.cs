@@ -1,17 +1,18 @@
 ﻿using Medallion.Threading;
 using Medallion.Threading.Redis;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Logging;
 using OpenIddict.Server;
 using StackExchange.Redis;
 using System;
-using System.Linq;
+using Thatch.AdministrationService.Data;
 using Thatch.IdentityService.Data;
 using Thatch.Shared.Hosting;
 using Thatch.Shared.Microservices;
+using Thatch.TenantService.Data;
 using Volo.Abp;
 using Volo.Abp.Account;
 using Volo.Abp.Account.Web;
@@ -42,6 +43,8 @@ namespace AuthServer;
     typeof(ThatchHostingModule),
     typeof(AbpAspNetCoreSerilogModule),
     typeof(IdentityServiceDataModule),
+    typeof(AdministrationServiceDataModule),
+    typeof(TenantServiceDataModule),
     typeof(ThatchSharedMicroservicesModule)
     )]
 public class ThatchAuthServerModule : AbpModule
@@ -126,29 +129,12 @@ public class ThatchAuthServerModule : AbpModule
                 .Connect(configuration["Redis:Configuration"]);
             return new RedisDistributedSynchronizationProvider(connection.GetDatabase());
         });
-
-        context.Services.AddCors(options =>
-        {
-            options.AddDefaultPolicy(builder =>
-            {
-                builder
-                    .WithOrigins(
-                        configuration["App:CorsOrigins"]
-                            .Split(",", StringSplitOptions.RemoveEmptyEntries)
-                            .Select(o => o.RemovePostFix("/"))
-                            .ToArray()
-                    )
-                    .WithAbpExposedHeaders()
-                    .SetIsOriginAllowedToAllowWildcardSubdomains()
-                    .AllowAnyHeader()
-                    .AllowAnyMethod()
-                    .AllowCredentials();
-            });
-        });
     }
 
     public override void OnApplicationInitialization(ApplicationInitializationContext context)
     {
+        IdentityModelEventSource.ShowPII = true;
+
         var app = context.GetApplicationBuilder();
         var env = context.GetEnvironment();
 
@@ -170,6 +156,7 @@ public class ThatchAuthServerModule : AbpModule
         app.UseCors();
         app.UseAuthentication();
         app.UseAbpOpenIddictValidation();
+        app.UseMultiTenancy();
         app.UseUnitOfWork();
         app.UseAuthorization();
         app.UseAuditing();
