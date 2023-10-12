@@ -3977,6 +3977,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
           "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
@@ -4006,6 +4007,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
+          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.Account.Application": "7.3.3",
           "Volo.Abp.Account.HttpApi": "7.3.3",
@@ -4039,6 +4041,7 @@
           "Serilog.Settings.Configuration": "3.4.0",
           "Serilog.Sinks.Async": "1.5.0",
           "Serilog.Sinks.Seq": "5.2.2",
+          "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",
           "Volo.Abp.AspNetCore.Serilog": "7.3.3",
           "Volo.Abp.Authorization": "7.3.3",
           "Volo.Abp.Autofac": "7.3.3",
@@ -4050,6 +4053,7 @@
           "Volo.Abp.Http.Client.IdentityModel.Web": "7.3.3",
           "Volo.Abp.Identity.HttpApi.Client": "7.3.3",
           "Volo.Abp.Localization": "7.3.3",
+          "Volo.Abp.MultiTenancy": "7.3.3",
           "Volo.Abp.Swashbuckle": "7.3.3"
         },
         "runtime": {
@@ -4061,7 +4065,6 @@
       },
       "Thatch.Shared.Microservices/1.0.0": {
         "dependencies": {
-          "Thatch.Shared.Hosting": "1.0.0",
           "Volo.Abp.FeatureManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.PermissionManagement.EntityFrameworkCore": "7.3.3",
           "Volo.Abp.SettingManagement.EntityFrameworkCore": "7.3.3",
@@ -4079,6 +4082,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "Microsoft.Extensions.FileProviders.Embedded": "7.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.18.0",
+          "Thatch.Shared.Hosting": "1.0.0",
           "Thatch.Shared.Microservices": "1.0.0",
           "Volo.Abp.AspNetCore.Mvc": "7.3.3",
           "Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy": "7.3.3",

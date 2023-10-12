@@ -90,7 +90,6 @@ public class AdministrationServiceModule : AbpModule
         app.UseRouting();
         app.UseCors();
         app.UseAuthentication();
-        app.UseMultiTenancy();
         app.UseAbpRequestLocalization();
         //app.UseMultiTenancy(); TODO Erorr DI MultiTenant
         app.UseAuthorization();

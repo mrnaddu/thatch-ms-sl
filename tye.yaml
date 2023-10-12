@@ -25,6 +25,11 @@ services:
   project: services/Thatch.TenantService/Thatch.TenantService.csproj
   bindings:
     - protocol: https
-      port: 5002
+      port: 5003
+- name: Thatch-Gateway
+  project: gateway/Thatch.Gateway/Thatch.Gateway.csproj
+  bindings:
+    - protocol: https
+      port: 5004
 
 
