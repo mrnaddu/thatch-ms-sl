@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
-using Volo.Abp.Modularity;
-using Volo.Abp;
-using Microsoft.Extensions.Hosting;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting.Internal;
+using Microsoft.Extensions.Hosting;
+using StackExchange.Redis;
+using System.Collections.Generic;
+using Thatch.Shared.Hosting;
+using Volo.Abp;
 using Volo.Abp.Caching;
+using Volo.Abp.Modularity;
 
 namespace Thatch.TenantService;
 

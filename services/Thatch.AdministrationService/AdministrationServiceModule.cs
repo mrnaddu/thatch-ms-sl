@@ -1,14 +1,18 @@
-﻿using Microsoft.Extensions.DependencyInjection.Extensions;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Microsoft.Extensions.Hosting;
 using System.Collections.Generic;
 using Thatch.AdministrationService.Controllers;
 using Thatch.AdministrationService.Data;
 using Thatch.AdministrationService.Services;
+using Thatch.Shared.Hosting;
+using Thatch.Shared.Microservices;
 using Volo.Abp;
 using Volo.Abp.Emailing;
+using Volo.Abp.Http.Client.IdentityModel.Web;
+using Volo.Abp.Identity;
 using Volo.Abp.Modularity;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Hosting;
 
 namespace Thatch.AdministrationService;
 

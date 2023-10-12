@@ -1,0 +1,7 @@
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.csproj.AssemblyReference.cache
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.GeneratedMSBuildEditorConfig.editorconfig
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.AssemblyInfoInputs.cache
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.AssemblyInfo.cs
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.csproj.CoreCompileInputs.cache
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.MvcApplicationPartsAssemblyInfo.cs
+C:\thatch-sl-ms\thatch-ms-sl\services\Thatch.TenantService\obj\Debug\net7.0\Thatch.TenantService.MvcApplicationPartsAssemblyInfo.cache

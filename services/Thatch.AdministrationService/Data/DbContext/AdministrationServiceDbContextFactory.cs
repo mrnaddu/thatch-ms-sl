@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.IO;
+using Thatch.AdministrationService.Shared.Const;
 
 namespace Thatch.AdministrationService.Data.DbContext;
 

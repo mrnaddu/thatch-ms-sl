@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Thatch.AdministrationService.Interfaces.Sample;
+using Thatch.AdministrationService.Services.Dtos;
 using Volo.Abp.AspNetCore.Mvc;
 
 namespace Thatch.AdministrationService.Controllers.Sample;

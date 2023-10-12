@@ -28,9 +28,6 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj": {
-                "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj"
-              },
               "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj": {
                 "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj"
               },

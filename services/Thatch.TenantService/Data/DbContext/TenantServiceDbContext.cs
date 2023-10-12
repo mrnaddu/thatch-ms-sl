@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Thatch.TenantService.Shared.Const;
 using Volo.Abp.Data;
 using Volo.Abp.EntityFrameworkCore;
 using Volo.Abp.TenantManagement;

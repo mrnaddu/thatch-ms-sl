@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dpn6zc04lB6AbGzV9RXX6kdUzqOm5DV9lbQWI5uChgw=",
+  "Source": "Thatch.IdentityService",
+  "BasePath": "_content/Thatch.IdentityService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

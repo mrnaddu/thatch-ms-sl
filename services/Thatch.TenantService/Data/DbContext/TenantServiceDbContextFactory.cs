@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using System.IO;
 using System;
 using Microsoft.EntityFrameworkCore.Design;
+using Thatch.TenantService.Shared.Const;
 
 namespace Thatch.TenantService.Data.DbContext;
 
@@ -15,7 +16,7 @@ public class TenantServiceDbContextFactory : IDesignTimeDbContextFactory<TenantS
 
         var configuration = BuildConfiguration();
 
-        var connectionString = configuration.GetConnectionString(IdentityServiceDbProperties.ConnectionStringName);
+        var connectionString = configuration.GetConnectionString(TenantServiceDbProperties.ConnectionStringName);
 
         var builder = new DbContextOptionsBuilder<TenantServiceDbContext>()
             .UseNpgsql(connectionString);

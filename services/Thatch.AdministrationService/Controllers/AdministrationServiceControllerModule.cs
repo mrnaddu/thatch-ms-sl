@@ -1,5 +1,6 @@
 ﻿using Localization.Resources.AbpUi;
 using Microsoft.Extensions.DependencyInjection;
+using Thatch.AdministrationService.Interfaces;
 using Thatch.AdministrationService.Localization;
 using Volo.Abp.AspNetCore.Mvc;
 using Volo.Abp.FeatureManagement;

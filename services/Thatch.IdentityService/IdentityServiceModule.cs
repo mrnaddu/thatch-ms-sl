@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using Thatch.IdentityService.Controllers;
 using Thatch.IdentityService.Data;
 using Thatch.IdentityService.Services;
+using Thatch.Shared.Hosting;
+using Thatch.Shared.Microservices;
 using Volo.Abp;
 using Volo.Abp.Modularity;
 

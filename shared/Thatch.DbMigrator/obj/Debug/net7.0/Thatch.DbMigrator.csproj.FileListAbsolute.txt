@@ -1,0 +1,5 @@
+C:\thatch-sl-ms\thatch-ms-sl\shared\Thatch.DbMigrator\obj\Debug\net7.0\Thatch.DbMigrator.csproj.AssemblyReference.cache
+C:\thatch-sl-ms\thatch-ms-sl\shared\Thatch.DbMigrator\obj\Debug\net7.0\Thatch.DbMigrator.GeneratedMSBuildEditorConfig.editorconfig
+C:\thatch-sl-ms\thatch-ms-sl\shared\Thatch.DbMigrator\obj\Debug\net7.0\Thatch.DbMigrator.AssemblyInfoInputs.cache
+C:\thatch-sl-ms\thatch-ms-sl\shared\Thatch.DbMigrator\obj\Debug\net7.0\Thatch.DbMigrator.AssemblyInfo.cs
+C:\thatch-sl-ms\thatch-ms-sl\shared\Thatch.DbMigrator\obj\Debug\net7.0\Thatch.DbMigrator.csproj.CoreCompileInputs.cache

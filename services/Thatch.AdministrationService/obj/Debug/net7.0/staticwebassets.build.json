@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fRz3LF2JWk3nqB5PCmxBVpC7VQeIf6uY/XwnICkPP54=",
+  "Source": "Thatch.AdministrationService",
+  "BasePath": "_content/Thatch.AdministrationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
