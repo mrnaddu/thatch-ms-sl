@@ -44,11 +44,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\..\shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj" />
-		<ProjectReference Include="..\..\..\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<Content Remove="$(UserProfile)\.nuget\packages\*\*\contentFiles\any\*\*.abppkg*.json" />
 	</ItemGroup>
 	
@@ -92,6 +87,11 @@
 		<Content Remove="Logs\**" />
 		<EmbeddedResource Remove="Logs\**" />
 		<None Remove="Logs\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\..\..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
+	  <ProjectReference Include="..\..\shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj" />
 	</ItemGroup>
 
 </Project>
