@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W13PhJXOezN2WdUwqJzjBsCPe8sWb8T6P27c+FSe8EfB/Cpsjhit+iIlYyP78IQSHSkHHp6YnthLq82BnP36Fg==",
+  "dgSpecHash": "M52VHagYxDDhb0T/3nxR70BPT/DiuLlr3MZoDlvgPK2bitibQeG6tHC9bZkyfgB1QkAf4NG5E3JK9EcZmL3iFQ==",
   "success": true,
-  "projectFilePath": "C:\\new sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",

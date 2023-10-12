@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7jCT1Hmsav5MVLj+7Ff0YqhCnNhZROkiaQoNJoINmwEJBIgUoG8CBFlHOY/GeCId9Y3bYelYsTmw2+5Wd6WbMg==",
+  "dgSpecHash": "kmWAkuHbW53Jk5CR/+73S2c8PGOkpH8S+Jt1AO+oJ394aqbU5TnTirzDwz16rVb+CI8i/snaHzuOkYTgOo72Qw==",
   "success": false,
-  "projectFilePath": "C:\\new sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj",
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
@@ -204,8 +204,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
+      "message": "Unable to find project 'C:\\thatch-sl-ms\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\thatch-sl-ms\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
       "targetGraphs": [
         "net7.0"
       ]
@@ -213,8 +213,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
+      "message": "Unable to find project 'C:\\thatch-sl-ms\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\thatch-sl-ms\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
       "targetGraphs": [
         "net7.0"
       ]

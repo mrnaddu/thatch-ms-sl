@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W6G+oRSiQJ9jQcsZxDu3AB9usXRBjY+++nyaYgWXOFWpJTCwNmmbFlmaoLO5KVRmDrFWt30rg6oCN9nrjuLjrw==",
+  "dgSpecHash": "wML/OK6Fv/PobjYcWKJtjSz+2184WK5FF1wogN/vliuFDqL5mwXJrUEdEZk7kTGYeQkowApvdyhIl8Q89DanmA==",
   "success": true,
-  "projectFilePath": "C:\\new sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj",
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",

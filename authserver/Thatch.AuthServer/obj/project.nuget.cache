@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2wSpkSWlr8KpvD3BfH0d1TLDsQWRgkhI4h71SU2os0DvwtsoL3J4lhP5eviQ86pM3FaqmBDfszMKsli4WVphLQ==",
+  "dgSpecHash": "+BKu1xITkmpSOuuZ/C+AtPtOmYBa7vjFtLfX38t51s7YkT3r68f+YvZvewQH4HZHfzu0feSyiXJoivsmqtlJvg==",
   "success": false,
-  "projectFilePath": "C:\\new sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
@@ -261,8 +261,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\new sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\new sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
+      "message": "Unable to find project information for 'C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
       "targetGraphs": [
         "net7.0"
       ]
@@ -270,8 +270,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\new sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\new sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj",
+      "message": "Unable to find project 'C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Identity\\Thatch.IdentityService\\Thatch.IdentityService.csproj",
       "targetGraphs": [
         "net7.0"
       ]

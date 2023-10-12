@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EXIVXsE3z/y491qStzFn2j+iqKGys92aRbltDmZpTqzk+FNj/UNEN31orbS+i/HFDkHvb2xB1jPJsLuG7n1CFQ==",
+  "dgSpecHash": "lhYf2tRJEbJPD4OiNOnWWodxtx0bechx4+FN2c5pnscKdb9KiQJWVwwkt0KicodTD2YsmNR/8r5F9pGdlnaSAw==",
   "success": false,
-  "projectFilePath": "C:\\new sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
+  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",
@@ -251,8 +251,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
+      "message": "Unable to find project 'C:\\thatch-sl-ms\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\thatch-sl-ms\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
       "targetGraphs": [
         "net7.0"
       ]
@@ -260,8 +260,8 @@
     {
       "code": "NU1104",
       "level": "Error",
-      "message": "Unable to find project 'C:\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
+      "message": "Unable to find project 'C:\\thatch-sl-ms\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\thatch-sl-ms\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
       "targetGraphs": [
         "net7.0"
       ]

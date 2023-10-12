@@ -26,7 +26,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItems", "solutionIt
 		tye.yaml = tye.yaml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Microservices", "..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj", "{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Microservices", "..\..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj", "{BA53D69F-66E0-4678-82CE-029AE812A47A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,10 +58,10 @@ Global
 		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{480E0A10-8092-4DCC-BFEA-AFB235873239}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA53D69F-66E0-4678-82CE-029AE812A47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA53D69F-66E0-4678-82CE-029AE812A47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA53D69F-66E0-4678-82CE-029AE812A47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA53D69F-66E0-4678-82CE-029AE812A47A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,7 +73,7 @@ Global
 		{B472937D-33BF-4CD3-AC30-A74A7675E7B3} = {0BDA7F22-880A-4B00-A707-7D49712E3D2D}
 		{73FFC98E-E933-4857-B738-A2852CACD424} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
 		{480E0A10-8092-4DCC-BFEA-AFB235873239} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
-		{3EA63DE3-3F06-4227-AD66-7D9DA4E7DEC4} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
+		{BA53D69F-66E0-4678-82CE-029AE812A47A} = {970E0981-C967-4D8F-B8B0-4F2E160CC30B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74D387D9-ACD6-4FC7-A660-9DD22C964938}
