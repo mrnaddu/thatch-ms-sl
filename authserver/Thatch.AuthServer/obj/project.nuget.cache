@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Zui8Z4NkzM4/717GWNQdgXVWv+6MqaFqMjgcrRfNfchJ9xlyzpFmiHJwiStlBAhr413yXRvQPEPKiMTKp7BHQ==",
+  "dgSpecHash": "WJeg/4ft2/MsIwojmuE/Zy+ps726LevWIiJu+TBmZ3Qyb4lyPBUFx+lCVCAFT2LiUhYaJFbQdXrEnQUzLd5AMg==",
   "success": true,
-  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
+  "projectFilePath": "C:\\thatch-new\\thatch-ms-sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",

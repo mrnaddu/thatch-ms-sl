@@ -13037,11 +13037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
+      "projectUniqueName": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
       "projectName": "Thatch.DbMigrator",
-      "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
+      "projectPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\Thatch.DbMigrator.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\obj\\",
+      "outputPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.DbMigrator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -13058,14 +13058,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj": {
-              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj"
+            "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj": {
+              "projectPath": "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.AdministrationService\\Thatch.AdministrationService.csproj"
             },
-            "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj": {
-              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj"
+            "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj": {
+              "projectPath": "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj"
             },
-            "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj": {
-              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj"
+            "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj": {
+              "projectPath": "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj"
             }
           }
         }

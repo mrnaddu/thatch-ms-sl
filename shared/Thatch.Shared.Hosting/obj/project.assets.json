@@ -9866,11 +9866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
+      "projectUniqueName": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
       "projectName": "Thatch.Shared.Hosting",
-      "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
+      "projectPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\obj\\",
+      "outputPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

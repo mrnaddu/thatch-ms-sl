@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5qK3YDoxMGS0kIamfAMH4w125l6oTkAsu/hFyAHw1IJdANmMVSccu84CMHJbXAEohTiP9zE7w2PJbRGKlfp5iQ==",
+  "dgSpecHash": "xXprWn3OZQ/RKsQVpUOIGKX+nWaW3FiOpwD2iNojORqGUcTm4hZWkAzh+YKh64Zx3q/Lq/k3xVJKOLyXvHlBgg==",
   "success": true,
-  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj",
+  "projectFilePath": "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.IdentityService\\Thatch.IdentityService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",

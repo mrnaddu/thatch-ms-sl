@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vWBLXDwRrqVEM4XFrIVBHvJ8oqyEKo6gmwUC0Ux3cB3Ve6ubcKF692NwqPSP8OSS6w4A4ENIx8JZfnc9LeCIXg==",
+  "dgSpecHash": "L90MxZ1YWJAWaMWpcpLoWN4QRtTsg2tSENuojzIOqCllZpvj0f3AXakox19bTacayCobGQCn2YURFS9i8p9L0A==",
   "success": true,
-  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
+  "projectFilePath": "C:\\thatch-new\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.0\\microsoft.visualstudio.azure.containers.tools.targets.1.18.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\system.io.hashing\\7.0.0\\system.io.hashing.7.0.0.nupkg.sha512",

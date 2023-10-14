@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vw2nI1By3iEDtgIQL8CeOaFTuqiCp7HhjFWtDtoyWiglvlqOBbR0eG2U8CD9k/nLakBGCzyOIuMH2VWGRxPD6Q==",
+  "dgSpecHash": "XFkpkrVeyq7tUd051HQ9yqMjkpgk8Rg2Lo7Hftl4aiiWZ4N1+qa+Mt1cStVn+Y0DQGeMw2BlNq/CUicyljSYEA==",
   "success": true,
-  "projectFilePath": "C:\\thatch-sl-ms\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj",
+  "projectFilePath": "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\asynckeyedlock\\6.2.1\\asynckeyedlock.6.2.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\autofac\\7.0.0\\autofac.7.0.0.nupkg.sha512",

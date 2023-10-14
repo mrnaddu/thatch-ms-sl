@@ -184,11 +184,11 @@
   "project": {
     "version": "1.1.3",
     "restore": {
-      "projectUniqueName": "C:\\thatch-sl-ms\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
+      "projectUniqueName": "C:\\thatch-new\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
       "projectName": "Thatch.Gateway",
-      "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
+      "projectPath": "C:\\thatch-new\\thatch-ms-sl\\gateway\\Thatch.Gateway\\Thatch.Gateway.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\gateway\\Thatch.Gateway\\obj\\",
+      "outputPath": "C:\\thatch-new\\thatch-ms-sl\\gateway\\Thatch.Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
