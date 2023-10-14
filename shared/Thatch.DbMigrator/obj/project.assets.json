@@ -13006,8 +13006,8 @@
     },
     "Thatch.Shared.Microservices/1.0.0": {
       "type": "project",
-      "path": "../../../../Thatch-Backend/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj",
-      "msbuildProject": "../../../../Thatch-Backend/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj"
+      "path": "../../../../thatch-sl-ms/thatch-ms-sl/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj",
+      "msbuildProject": "../../../../thatch-sl-ms/thatch-ms-sl/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj"
     },
     "Thatch.TenantService/1.1.3": {
       "type": "project",

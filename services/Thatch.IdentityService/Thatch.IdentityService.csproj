@@ -61,7 +61,7 @@
 		<Folder Include="Domain\Entities\" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
+	  <ProjectReference Include="..\..\..\..\thatch-sl-ms\thatch-ms-sl\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
 	  <ProjectReference Include="..\..\shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj" />
 	</ItemGroup>
 

@@ -11817,8 +11817,8 @@
     },
     "Thatch.Shared.Microservices/1.0.0": {
       "type": "project",
-      "path": "../../../../Thatch-Backend/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj",
-      "msbuildProject": "../../../../Thatch-Backend/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj"
+      "path": "../../../../thatch-sl-ms/thatch-ms-sl/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj",
+      "msbuildProject": "../../../../thatch-sl-ms/thatch-ms-sl/shared/Thatch.Shared.Microservices/Thatch.Shared.Microservices.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -11871,11 +11871,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
-              "projectPath": "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj"
-            },
             "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj": {
               "projectPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj"
+            },
+            "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
+              "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj"
             }
           }
         }

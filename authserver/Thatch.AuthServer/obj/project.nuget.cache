@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WJeg/4ft2/MsIwojmuE/Zy+ps726LevWIiJu+TBmZ3Qyb4lyPBUFx+lCVCAFT2LiUhYaJFbQdXrEnQUzLd5AMg==",
+  "dgSpecHash": "GEhtZje5L+cnjilNj4qDswLxgeMKioQNA8pWuhWDhN/sTFE7P90tP6yzEKhZpX0ksBv8dUmkp78E1INVPLAXow==",
   "success": true,
   "projectFilePath": "C:\\thatch-new\\thatch-ms-sl\\authserver\\Thatch.AuthServer\\Thatch.AuthServer.csproj",
   "expectedPackageFiles": [

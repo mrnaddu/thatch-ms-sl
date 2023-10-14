@@ -4,79 +4,6 @@
     "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj": {}
   },
   "projects": {
-    "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
-        "projectName": "Thatch.Shared.Microservices",
-        "projectPath": "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.3.3, )"
-            },
-            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.3.3, )"
-            },
-            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.3.3, )"
-            },
-            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[7.3.3, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\thatch-new\\thatch-ms-sl\\services\\Thatch.TenantService\\Thatch.TenantService.csproj": {
       "version": "1.1.3",
       "restore": {
@@ -101,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
-                "projectPath": "C:\\Thatch-Backend\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj"
-              },
               "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj": {
                 "projectPath": "C:\\thatch-new\\thatch-ms-sl\\shared\\Thatch.Shared.Hosting\\Thatch.Shared.Hosting.csproj"
+              },
+              "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
+                "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj"
               }
             }
           }
@@ -333,6 +260,79 @@
               "version": "[7.3.3, )"
             },
             "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
+        "projectName": "Thatch.Shared.Microservices",
+        "projectPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\Thatch.Shared.Microservices.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\thatch-sl-ms\\thatch-ms-sl\\shared\\Thatch.Shared.Microservices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.3, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.3.3, )"
             }
