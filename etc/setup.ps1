@@ -30,8 +30,8 @@ abp install-libs --working-directory "./authserver/Thatch.AuthServer"
 Write-Host("`nBuilding Solution`n")
 dotnet build /graphBuild
 
-Invoke-Expression "./thatch.ps1 infra up"
+Invoke-Expression "./microservice.ps1 infra up"
 
-Invoke-Expression "./thatch.ps1 migrate"
+Invoke-Expression "./microservice.ps1 migrate"
 
-Write-Host("`nCongrats! Project setup is complete. Try command '.\thatch.ps1 run'`n")
+Write-Host("`nCongrats! Project setup is complete. Try command '.\microservice.ps1 run'`n")

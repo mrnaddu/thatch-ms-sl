@@ -21,9 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.DbMigrator", "shared
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Hosting", "shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj", "{480E0A10-8092-4DCC-BFEA-AFB235873239}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItems", "solutionItems", "{6C674383-2405-4517-A38C-9DBC055ECA9C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solutionItem", "solutionItem", "{6C674383-2405-4517-A38C-9DBC055ECA9C}"
 	ProjectSection(SolutionItems) = preProject
-		run.ps1 = run.ps1
+		etc\run.ps1 = etc\run.ps1
 		tye.yaml = tye.yaml
 	EndProjectSection
 EndProject
@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Shared.Microservices
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateway", "gateway", "{F8E423F4-BF6B-41DB-ACEF-567D09CC2E85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thatch.Gateway", "gateway\Thatch.Gateway\Thatch.Gateway.csproj", "{B70EDD46-B891-4FCA-B88B-DB2EB0EF47C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thatch.Gateway", "gateway\Thatch.Gateway\Thatch.Gateway.csproj", "{B70EDD46-B891-4FCA-B88B-DB2EB0EF47C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

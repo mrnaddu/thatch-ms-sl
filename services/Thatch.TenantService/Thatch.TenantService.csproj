@@ -47,6 +47,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.mvc.ui.multitenancy\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.abppkg.analyze.json" />
+	  <Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.mvc.ui.multitenancy\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.abppkg.json" />
+	  <Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.mvc\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Mvc.abppkg.analyze.json" />
+	  <Content Remove="C:\Users\user\.nuget\packages\volo.abp.aspnetcore.mvc\7.3.3\contentFiles\any\net7.0\Volo.Abp.AspNetCore.Mvc.abppkg.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <ProjectReference Include="..\..\..\..\Thatch-Backend\shared\Thatch.Shared.Microservices\Thatch.Shared.Microservices.csproj" />
 	  <ProjectReference Include="..\..\shared\Thatch.Shared.Hosting\Thatch.Shared.Hosting.csproj" />
 	</ItemGroup>

@@ -1,9 +1,9 @@
-#./thatch.ps1 install
-#./thatch.ps1 run
-#./thatch.ps1 infra up
-#./thatch.ps1 infra down
-#./thatch.ps1 configure-cs
-#./thatch.ps1 migrate
+#./microservice.ps1 install
+#./microservice.ps1 run
+#./microservice.ps1 infra up
+#./microservice.ps1 infra down
+#./microservice.ps1 configure-cs
+#./microservice.ps1 migrate
 
 $action = $args[0]
 $subaction = $args[1]
